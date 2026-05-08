@@ -1,0 +1,1353 @@
+export const categories = [
+    {
+        "id": "all",
+        "name": "Todos"
+    },
+    {
+        "id": "2",
+        "name": "ESMALTES GEL"
+    },
+    {
+        "id": "3",
+        "name": "HERRAMIENTAS"
+    },
+    {
+        "id": "4",
+        "name": "LAMPARAS UV"
+    },
+    {
+        "id": "5",
+        "name": "IMANES"
+    },
+    {
+        "id": "6",
+        "name": "PINCELES"
+    },
+    {
+        "id": "7",
+        "name": "ACCESORIOS"
+    },
+    {
+        "id": "8",
+        "name": "PINTURA GEL"
+    },
+    {
+        "id": "9",
+        "name": "PULIDORAS DE UÑAS"
+    },
+    {
+        "id": "10",
+        "name": "POLVO ACRILICO"
+    },
+    {
+        "id": "11",
+        "name": "GEL"
+    },
+    {
+        "id": "12",
+        "name": "OJO DE GATO"
+    },
+    {
+        "id": "13",
+        "name": "PREPARADORES"
+    }
+];
+
+export const products = [
+    {
+        "id": 1,
+        "name": "SET DE ESMALTES COLECCION AZUL X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775351516_69d1b6dc37a44.jpg",
+        "description": "SET DE 6 ESMALTES CON VARIANTES AZULES - PRESENTACION B DE 15ML"
+    },
+    {
+        "id": 2,
+        "name": "SET DE ESMALTES COLORES BASE - COLECCION NUDES X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775352510_69d1babe84687.jpg",
+        "description": "SET DE ESMALTES COLORES BASE - NUDES EN PRESENTACION A DE 15ML VARIANTE A"
+    },
+    {
+        "id": 4,
+        "name": "SET DE ESMALTES COLORES BASE - COLECCION NUDES X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775351950_69d1b88e294f7.jpg",
+        "description": "SET DE ESMALTES COLORES BASE - COLECCION NUDES PRESENTACION DE 15 ML VARIANTE A"
+    },
+    {
+        "id": 5,
+        "name": "SET DE ESMALTES COLORES BASE - COLECCION NUDES X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775352026_69d1b8da4a5d5.jpg",
+        "description": "SET DE ESMALTES COLORES BASE - COLECCION NUDES PRESENTACION DE 15 ML VARIANTE B"
+    },
+    {
+        "id": 7,
+        "name": "SET DE ESMALTES COLECCION COLORES PASTEL X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775352849_69d1bc1173319.jpg",
+        "description": "SET DE ESMALTES COLECCION COLORES PASTEL PRESENTACION B DE 15 ML"
+    },
+    {
+        "id": 8,
+        "name": "SET DE ESMALTES GEL EFECTO OJO DE GATO COLECCION GLACIAL WATER",
+        "brand": "XEIJAYI",
+        "price": 75,
+        "categoryId": "2",
+        "image": "1775354217_69d1c1693504d.jpg",
+        "description": "SET DE ESMALTES EN OJO DE GATO COLECCION GLACIAL WATER PRESENTACION DE 15 ML X6"
+    },
+    {
+        "id": 9,
+        "name": "SET DE ESMALTES GEL EFECTO OJO DE GATO COLECCION GOLDEN",
+        "brand": "XEIJAYI",
+        "price": 75,
+        "categoryId": "2",
+        "image": "1775368340_69d1f8946aad9.jpg",
+        "description": "SET DE ESMALTES GEL EFECTO OJO DE GATO COLECCION GOLDEN PRESENTACION 15 ML X6（02+03+05+06+07+08)"
+    },
+    {
+        "id": 10,
+        "name": "SET DE ESMALTES GEL ROJOS COLECCION X4 RED SUITE",
+        "brand": "XEIJAYI",
+        "price": 48,
+        "categoryId": "2",
+        "image": "1775368473_69d1f9190991e.jpg",
+        "description": "SET DE ESMALTES GELROJOS COLECCION RED SUITE X4 (M077+M110+M111+M112)"
+    },
+    {
+        "id": 11,
+        "name": "SET DE ESMALTES MARRON CASTAÑO COLECCION CHESTNUT BROWN X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775368717_69d1fa0d92f30.jpg",
+        "description": "SET DE ESMALTES MARRON CASTAÑO COLECCION CHESTNUT BROWN X6 (M038 - M041 - M042 - M050 - M077 - M206)"
+    },
+    {
+        "id": 12,
+        "name": "LAMPARA UV PRO TIPO LINTERNA - NEGRA",
+        "brand": "GENERICO",
+        "price": 18,
+        "categoryId": "4",
+        "image": "1775369090_69d1fb82a234a.avif",
+        "description": "Linterna UV 395NM, Luz Ultravioleta Recargable por USB, Mini Lámpara Portátil para Secado de Esmalte"
+    },
+    {
+        "id": 13,
+        "name": "SET DE ESMALTES EFECTO OJO DE GATO COLECCION GEMAS X6",
+        "brand": "XEIJAYI",
+        "price": 75,
+        "categoryId": "2",
+        "image": "1775371734_69d205d61b0df.jpg",
+        "description": "ESMALTES EFECTO OJO DE GATO COLECCION GEMAS X6 (ICE CANDY CAT EYE 03 - ICE CANDY CAT EYE 04 - GREEN M202 - GLACIAL BUBBLE 04 - KLEIN BLUE M204 - BLASCKBERRY CAT EYE)"
+    },
+    {
+        "id": 14,
+        "name": "SET DE ESMALTES COLORES PASTEL COLECCION PRIMAVERA X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775371932_69d2069ca744a.jpg",
+        "description": "SET DE ESMALTES PASTELES COLECCION PRIMAVERA X6 PRESENTACION DE 15 ML (M061+M062+M063+M045+M072+M109)"
+    },
+    {
+        "id": 15,
+        "name": "PINCELES DE SILICONE X2 VERDE Y ROSADO",
+        "brand": "GLOVE",
+        "price": 16,
+        "categoryId": "3",
+        "image": "1775373816_69d20df896f35.jpg",
+        "description": "2 UNIDADES DE PINCELES DE SILICONE (1 VERDE + 1 ROSADO)"
+    },
+    {
+        "id": 16,
+        "name": "IMAN PARA EFECTO OJO DE GATO DOBLE PUNTA CON ESFERA SILVER",
+        "brand": "GLOVE",
+        "price": 18,
+        "categoryId": "5",
+        "image": "1775431059_69d2ed93d92ce.jpg",
+        "description": "Barra Iman de manicura de doble punta mejorada | Herramienta de diseño de ojo de gato de hierro con bolas de acero redondas, efecto de ojo de gato 3D, adecuada para salones de manicura y para el hogar."
+    },
+    {
+        "id": 17,
+        "name": "ESMALTE EN GEL CON EFECTO OJO DE GATO COLOR ROJO PROFUNDO BLACKBERRY",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "2",
+        "image": "1775435740_69d2ffdcaa6ee.jpg",
+        "description": "ESMALTE EN OJO DE GATO ROJO PROFUNDO (BLACKBERRY) PRESENTACION A DE 15ML"
+    },
+    {
+        "id": 18,
+        "name": "XEIJAYI TOP COAT GLASS CLEAR - PRESENTACION 100 ML",
+        "brand": "XEIJAYI",
+        "price": 50,
+        "categoryId": "2",
+        "image": "1775435867_69d3005b2b953.jpg",
+        "description": "TOP COAT GLASS DE LA MARCA XEIJAYI EN PRESENTACION DE 100 ML"
+    },
+    {
+        "id": 19,
+        "name": "XEIJAYI BUILDER GEL - PRESENTACION 100 ML",
+        "brand": "XEIJAYI",
+        "price": 50,
+        "categoryId": "2",
+        "image": "1775522567_69d45307bf30b.jpg",
+        "description": "XEIJAYI BUILDER GEL - PRESENTACION 100 ML"
+    },
+    {
+        "id": 20,
+        "name": "ESMALTE EN GEL OJO DE GATO ROJO RUBI",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1775523581_69d456fd8b3cb.jpg",
+        "description": "ESMALTE EN OJO DE GATO ROJO RUBI PRESENTACION DE 15 ML"
+    },
+    {
+        "id": 21,
+        "name": "SET DE ESMALTES COLECCION MARRONES X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775523792_69d457d058931.jpg",
+        "description": "SET DE ESMALTES EN GEL COLECCION MARRONES PRESENTACION B X6 DE 15ML"
+    },
+    {
+        "id": 22,
+        "name": "ESMALTE GEL OJO DE GATO GOLDEN PEARL",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1775525067_69d45ccb57521.jpg",
+        "description": "ESMALTE EN GEL DORADO PERLADO PRESENTACION A DE 15ML"
+    },
+    {
+        "id": 23,
+        "name": "ESMALTE GEL OJO DE GATO LUZ DE LUNA BLANCO",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1775525160_69d45d282d3cc.jpg",
+        "description": "ESMALTE GEL OJO DE GATO LUZ DE LUNA BLANCO"
+    },
+    {
+        "id": 24,
+        "name": "ESMALTE GEL OJO DE GATO ROCK SUGAR 01",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1775526364_69d461dc14249.jpg",
+        "description": "ESMALTE EN GEL OJO DE GATO DE LA COLECCION ROCK SUGAR (01)"
+    },
+    {
+        "id": 25,
+        "name": "ESMALTE GEL OJO DE GATO NEGRO PERLADO - BLACK PEARL",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1775526481_69d462514008c.jpg",
+        "description": "ESMALTE EN GEL OJON DE GATO NEGRO PERLADO - BLACK PEARL"
+    },
+    {
+        "id": 26,
+        "name": "SET DE ESMALTES COLECCION GLITTER X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1775527047_69d4648772ad1.jpg",
+        "description": "SET DE ESMALTES COLECCION GLITTER X6"
+    },
+    {
+        "id": 27,
+        "name": "XEIJAYI BASE RUBBER FIBER - TRANSPARENTE 15ML",
+        "brand": "XEIJAYI",
+        "price": 20,
+        "categoryId": "2",
+        "image": "1775527129_69d464d95fa28.jpg",
+        "description": "XEIJAYI BASE RUBBER FIBER - TRANSPARENTE 15ML"
+    },
+    {
+        "id": 28,
+        "name": "SET ESMALTES GEL OJO DE GATO DOPAMINA",
+        "brand": "XEIJAYI",
+        "price": 75,
+        "categoryId": "12",
+        "image": "1775532235_69d478cb5ee1e.jpg",
+        "description": "SET DE ESMALTES EN GEL OJO DE GATO COLECCION DOPAMINA"
+    },
+    {
+        "id": 29,
+        "name": "PINCELES DE SILICONE X8 COLORES RANDOM",
+        "brand": "GLOVE",
+        "price": 22,
+        "categoryId": "6",
+        "image": "1775532794_69d47afaadf1b.jpg",
+        "description": "SET DE 8 PINCELES PARA DECORACIÓN DE UÑAS, BOLÍGRAFOS DE MANICURA VERSÁTILES PARA GEL, DETALLES Y DISEÑOS FLORALES, APLICADORES DE PLÁSTICO DE GRADO PROFESIONAL PARA LA CREACIÓN DE ARTE DE UÑAS."
+    },
+    {
+        "id": 30,
+        "name": "ESMALTE GEL OJO DE GATO RED WINE",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1775537076_69d48bb41a41d.jpg",
+        "description": "ESMALTE GEL OJO DE GATO RED WINE PRESENTACION A DE 15ML"
+    },
+    {
+        "id": 31,
+        "name": "ESMALTE GEL OJO DE GATO ROJO DARK PLUM",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "2",
+        "image": "1775537248_69d48c60e228b.jpg",
+        "description": "ESMALTE GEL OJO DE GATO ROJO CIRUELA EBANO"
+    },
+    {
+        "id": 32,
+        "name": "ESMALTE GEL OJO DE GATO DARK RED",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1775537345_69d48cc15ad0e.jpg",
+        "description": "ESMALTE GEL OJO DE GATO DARK RED"
+    },
+    {
+        "id": 33,
+        "name": "ESMALTE GEL OJO DE GATO ROJO FIRE WORKS",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1775537453_69d48d2dde06d.jpg",
+        "description": "ESMALTE GEL OJO DE GATO ROJO FIRE WORKS"
+    },
+    {
+        "id": 34,
+        "name": "ESMALTE GEL OJO DE GATO ROJO FRAMBUESA",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "2",
+        "image": "1775537549_69d48d8d861b0.jpg",
+        "description": "ESMALTE GEL OJO DE GATO ROJO FRAMBUESA"
+    },
+    {
+        "id": 35,
+        "name": "BLANCO LECHOSO XEIJAYI - M001",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776231220_69df2334b34d8.jpg",
+        "description": "BLANCO LECHOSO XEIJAYI - M001"
+    },
+    {
+        "id": 36,
+        "name": "VERDE NAVIDAD XEIJAYI - M032",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776232413_69df27ddd16d4.jpg",
+        "description": "VERDE NAVIDAD XEIJAYI - M032"
+    },
+    {
+        "id": 37,
+        "name": "MARRON CHOCOLATE XEIJAYI - M042",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776233423_69df2bcfd1c83.jpg",
+        "description": "MARRON CHOCOLATE XEIJAYI - M042"
+    },
+    {
+        "id": 38,
+        "name": "MARRON CHOCOLATE XEIJAYI - M041",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776289493_69e006d518e0a.jpg",
+        "description": "MARRON CHOCOLATE XEIJAYI - M041"
+    },
+    {
+        "id": 40,
+        "name": "MARRON LATE XEIJAYI - M040",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776289641_69e007691f5cd.jpg",
+        "description": "MARRON CHOCOLATE XEIJAYI - M040"
+    },
+    {
+        "id": 41,
+        "name": "MARRON CREMA XEIJAYI - M039",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776289904_69e00870397fa.jpg",
+        "description": "MARRON CREMA XEIJAYI - M039"
+    },
+    {
+        "id": 42,
+        "name": "XEIJAYI MARRON VINTAGE - M043",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290014_69e008dee501c.jpg",
+        "description": "XEIJAYI MARRON VINTAGE - M043"
+    },
+    {
+        "id": 43,
+        "name": "XEIJAYI MARRON LECHE - M038",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290190_69e0098ed248c.jpg",
+        "description": "XEIJAYI MARRON LECHE - M038"
+    },
+    {
+        "id": 44,
+        "name": "XEIJAYI CELESTE BEBE - BLUE BABY - M037",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290307_69e00a037f562.jpg",
+        "description": "XEIJAYI CELESTE BEBE - BLUE BABY - M037"
+    },
+    {
+        "id": 45,
+        "name": "XEIJAYI AZUL ELECTRICO - PEACOCK BLUE - M036",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290414_69e00a6e7df8d.jpg",
+        "description": "XEIJAYI AZUL ELECTRICO - PEACOCK BLUE - M036"
+    },
+    {
+        "id": 46,
+        "name": "XEIJAYI AZUL CYAN - M035",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290530_69e00ae2a3845.jpg",
+        "description": "XEIJAYI AZUL CYAN - M035"
+    },
+    {
+        "id": 47,
+        "name": "XEIJAYI CELESTE MENTA - M034",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290673_69e00b71d0391.jpg",
+        "description": "XEIJAYI CELESTE MENTA - M034"
+    },
+    {
+        "id": 48,
+        "name": "XEIJAYI TURQUESA AZULADO - M033",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290807_69e00bf7ef1c2.jpg",
+        "description": "XEIJAYI TURQUESA AZULADO - M033"
+    },
+    {
+        "id": 49,
+        "name": "XEIJAYI VERDE OSCURO - M031",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290874_69e00c3a3e011.jpg",
+        "description": "XEIJAYI VERDE OSCURO - M031"
+    },
+    {
+        "id": 50,
+        "name": "XEIJAYI VERDE OLIVA - M030",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776290961_69e00c918d4db.jpg",
+        "description": "XEIJAYI VERDE OLIVA - M030"
+    },
+    {
+        "id": 51,
+        "name": "XEIJAYI VERDE MENTA - M029",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776291196_69e00d7c8745e.jpg",
+        "description": "XEIJAYI VERDE MENTA - M029"
+    },
+    {
+        "id": 52,
+        "name": "XEIJAYI VERDE OLIVA BOSQUE - M028",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776291789_69e00fcd88aaa.jpg",
+        "description": "XEIJAYI VERDE OLIVA BOSQUE - M028"
+    },
+    {
+        "id": 53,
+        "name": "XEIJAYI VERDE LATE - M027",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776298262_69e02916b5831.jpg",
+        "description": "XEIJAYI VERDE LATE - M027"
+    },
+    {
+        "id": 54,
+        "name": "XEIJAYI AMARILLO ELEGANTE - M026",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776298483_69e029f37275d.jpg",
+        "description": "XEIJAYI AMARILLO ELEGANTE - M026"
+    },
+    {
+        "id": 55,
+        "name": "XEIJAYI VERDE CREMOSO - M025",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776298914_69e02ba29f5a0.jpg",
+        "description": "XEIJAYI VERDE CREMOSO - M025"
+    },
+    {
+        "id": 56,
+        "name": "XEIJAYI MARRON ELEGANTE - M044",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776299066_69e02c3a84b04.jpg",
+        "description": "XEIJAYI MARRON ELEGANTE - M044"
+    },
+    {
+        "id": 57,
+        "name": "XEIJAYI GRIS CLARO - M045",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776299155_69e02c93b94e0.jpg",
+        "description": "XEIJAYI GRIS CLARO - M045"
+    },
+    {
+        "id": 58,
+        "name": "XEIJAYI GRIS CUARZO - M047",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776299312_69e02d300739e.jpg",
+        "description": "XEIJAYI GRIS CUARZO - M047"
+    },
+    {
+        "id": 59,
+        "name": "XEIJAYI GRIS - M048",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776299411_69e02d935b9b6.jpg",
+        "description": "XEIJAYI GRIS - M048"
+    },
+    {
+        "id": 60,
+        "name": "XEIJAYI NEGRO - M050",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776299671_69e02e9704b4f.jpg",
+        "description": "XEIJAYI NEGRO - M050"
+    },
+    {
+        "id": 61,
+        "name": "XEIJAYI BLANCO - M061",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776299749_69e02ee50bb72.jpg",
+        "description": "XEIJAYI BLANCO - M061"
+    },
+    {
+        "id": 62,
+        "name": "XEIJAYI BLANCO HUESO - M062",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776299911_69e02f875f1ad.jpg",
+        "description": "XEIJAYI BLANCO HUESO - M062"
+    },
+    {
+        "id": 63,
+        "name": "XEIJAYI VAINILLA - M063",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776300049_69e030113038d.jpg",
+        "description": "XEIJAYI VAINILLA - M063"
+    },
+    {
+        "id": 64,
+        "name": "XEIJAYI AMARILLO - M064",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776300223_69e030bf38d11.jpg",
+        "description": "XEIJAYI VAINILLA - M063"
+    },
+    {
+        "id": 65,
+        "name": "XEIJAYI AMARILLO CLARO - M065",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776300298_69e0310ad4ade.jpg",
+        "description": "XEIJAYI AMARILLO CLARO - M065"
+    },
+    {
+        "id": 66,
+        "name": "XEIJAYI AMARILLO CITRICO - M066",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776300934_69e0338659056.jpg",
+        "description": "XEIJAYI AMARILLO CITRICO - M066"
+    },
+    {
+        "id": 67,
+        "name": "XEIJAYI MARRON DELICACY - M069",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776301183_69e0347fc535d.jpg",
+        "description": "XEIJAYI MARRON DELICACY - M069"
+    },
+    {
+        "id": 68,
+        "name": "XEIJAYI MARRON MILKSHAKE - M070",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776301299_69e034f375858.jpg",
+        "description": "XEIJAYI MARRON MILKSHAKE - M070"
+    },
+    {
+        "id": 69,
+        "name": "XEIJAYI ROSADO SUGAR - M072",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776301398_69e03556cd5f9.jpg",
+        "description": "XEIJAYI ROSADO SUGAR - M072"
+    },
+    {
+        "id": 70,
+        "name": "XEIJAYI NARANJA - M074",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776301528_69e035d85bb47.jpg",
+        "description": "XEIJAYI NARANJA - M074"
+    },
+    {
+        "id": 71,
+        "name": "XEIJAYI TERRACOTA - M075",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776301633_69e036414e9b8.jpg",
+        "description": "XEIJAYI TERRACOTA - M075"
+    },
+    {
+        "id": 72,
+        "name": "XEIJAYI MARRON CAPUCCINO - M076",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776301746_69e036b28580f.jpg",
+        "description": "XEIJAYI MARRON CAPUCCINO - M076"
+    },
+    {
+        "id": 73,
+        "name": "XEIJAYI ROJO BURDEOS- M077",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776302058_69e037eabac77.jpg",
+        "description": "XEIJAYI ROJO BURDEOS - M077"
+    },
+    {
+        "id": 74,
+        "name": "XEIJAYI ROJO TEJA - M078",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776302147_69e03843a712f.jpg",
+        "description": "XEIJAYI ROJO TEJA - M078"
+    },
+    {
+        "id": 75,
+        "name": "XEIJAYI ROJO - M080",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776302225_69e03891eb042.jpg",
+        "description": "XEIJAYI ROJO - M080"
+    },
+    {
+        "id": 76,
+        "name": "XEIJAYI ROJO PIMIENTO - M081",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776302414_69e0394e0d374.jpg",
+        "description": "XEIJAYI ROJO PIMIENTO - M081"
+    },
+    {
+        "id": 77,
+        "name": "XEIJAYI ROJO PROFUNDO - M082",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776302494_69e0399e0af3f.jpg",
+        "description": "XEIJAYI ROJO PROFUNDO - M082"
+    },
+    {
+        "id": 78,
+        "name": "XEIJAYI ROJO CEREZA - M083",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776302572_69e039ec4838c.jpg",
+        "description": "XEIJAYI ROJO CEREZA - M083"
+    },
+    {
+        "id": 79,
+        "name": "XEIJAYI VINO ROJO CIRUELA - M084",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776302748_69e03a9cf2210.jpg",
+        "description": "XEIJAYI VINO ROJO CIRUELA - M084"
+    },
+    {
+        "id": 80,
+        "name": "XEIJAYI ROSADO MALVA - M086",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776303306_69e03cca7ce5b.jpg",
+        "description": "XEIJAYI ROSADO MALVA - M086"
+    },
+    {
+        "id": 81,
+        "name": "XEIJAYI LILA CREAM - M088",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776370496_69e14340c4c6a.jpg",
+        "description": "XEIJAYI LILA CREAM - M088"
+    },
+    {
+        "id": 82,
+        "name": "XEIJAYI PURPURA CENIZA - M089",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776371145_69e145c9ddf7b.jpg",
+        "description": "XEIJAYI PURPURA CENIZA - M089"
+    },
+    {
+        "id": 83,
+        "name": "XEIJAYI VIOLETA CENIZO - M090",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776371308_69e1466cd91a0.jpg",
+        "description": "XEIJAYI VIOLETA CENIZO - M090"
+    },
+    {
+        "id": 84,
+        "name": "XEIJAYI PURPURA - M091",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776371370_69e146aabcc3e.jpg",
+        "description": "XEIJAYI PURPURA - M091"
+    },
+    {
+        "id": 85,
+        "name": "XEIJAYI AZUL ARANDANO - M092",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776371535_69e1474f8c310.jpg",
+        "description": "XEIJAYI AZUL ARANDANO - M092"
+    },
+    {
+        "id": 86,
+        "name": "XEIJAYI AZUL VOLCANICO - M093",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776371640_69e147b85463f.jpg",
+        "description": "XEIJAYI AZUL VOLCANICO - M093"
+    },
+    {
+        "id": 87,
+        "name": "XEIJAYI AZUL REAL - M094",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776372390_69e14aa693000.jpg",
+        "description": "XEIJAYI AZUL REAL - M094"
+    },
+    {
+        "id": 88,
+        "name": "XEIJAYI AZUL PROFUNDO - M095",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776372611_69e14b837af5c.jpg",
+        "description": "XEIJAYI AZUL PROFUNDO - M095"
+    },
+    {
+        "id": 89,
+        "name": "XEIJAYI AZUL CIELO - M096",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776372744_69e14c0869399.jpg",
+        "description": "XEIJAYI AZUL CIELO - M096"
+    },
+    {
+        "id": 90,
+        "name": "XEIJAYI AZUL TURQUESA CARIBE - M099",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776372922_69e14cba3e320.jpg",
+        "description": "XEIJAYI AZUL TURQUESA CARIBE - M099"
+    },
+    {
+        "id": 91,
+        "name": "XEIJAYI ROSADO BALLET - M109",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776373372_69e14e7cd43dd.jpg",
+        "description": "XEIJAYI ROSADO BALLET - M109"
+    },
+    {
+        "id": 92,
+        "name": "XEIJAYI JELLY ROJO SHEER NUDE - M112",
+        "brand": "XEIJAYI",
+        "price": 16,
+        "categoryId": "2",
+        "image": "1776383638_69e17696a4f0e.jpg",
+        "description": "XEIJAYI JELLY ROJO SHEER NUDE - M112"
+    },
+    {
+        "id": 93,
+        "name": "XEIJAYI AMARILLO PALIDO CHEESE YELLOW - M119",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776383751_69e17707a85e9.jpg",
+        "description": "XEIJAYI AMARILLO PALIDO CHEESE YELLOW - M119"
+    },
+    {
+        "id": 94,
+        "name": "XEIJAYI ROSADO PASTEL - M121",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776383826_69e177526d7be.jpg",
+        "description": "XEIJAYI ROSADO PASTEL - M121"
+    },
+    {
+        "id": 95,
+        "name": "XEIJAYI AMARILLO SOLAR - M178",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1776384000_69e17800aa5e5.jpg",
+        "description": "XEIJAYI AMARILLO SOLAR - M178"
+    },
+    {
+        "id": 96,
+        "name": "LAMINA DE TRANSFERENCIA PARA UÑAS CON DISEÑO DE ENCAJE FLORAL EN BLANCO Y NEGRO",
+        "brand": "GLOVE",
+        "price": 14,
+        "categoryId": "7",
+        "image": "1776730695_69e6c247399de.jpg",
+        "description": "1 Caja de 10 Rollos de Elegante Lámina de Transferencia para Uñas con Diseño de Encaje Floral en Blanco y , Pegatinas de Papel Vintage con Cielo Estrellado y Flores, Accesorios y Herramientas para Decoración de Uñas"
+    },
+    {
+        "id": 97,
+        "name": "GEL DE PINTURA DE 9 COLORES BRTAVIZVY -01",
+        "brand": "BRTAVIZVY",
+        "price": 32,
+        "categoryId": "8",
+        "image": "1776731183_69e6c42f59a22.jpg",
+        "description": "Gel de pintura de 9 colores para masaje, nueve cuadrículas de palacio, alta saturación, lavado engradado de tinte, gel de dibujo de color marrón rojizo otoñal, color de caramelo, esmalte de uñas en gel LED"
+    },
+    {
+        "id": 98,
+        "name": "GEL DE PINTURA DE 9 COLORES BRTAVIZVY - 02",
+        "brand": "BRTAVIZVY",
+        "price": 32,
+        "categoryId": "8",
+        "image": "1776731270_69e6c48644817.jpg",
+        "description": "Gel de pintura de 9 colores para masaje, nueve cuadrículas de palacio, alta saturación, lavado engradado de tinte, gel de dibujo de color marrón rojizo otoñal, color de caramelo, esmalte de uñas en gel LED"
+    },
+    {
+        "id": 99,
+        "name": "GEL DE PINTURA DE 9 COLORES JILLRADIA - 01",
+        "brand": "JILLRADIA",
+        "price": 32,
+        "categoryId": "8",
+        "image": "1776731555_69e6c5a3ee0cc.jpg",
+        "description": "JILLRADIA PEGAMENTO PARA GOLPEAR DE 9 COLORES, MANCHADO EN LATA, DE ALTA SATURACIÓN, POPULAR, SEMISÓLIDO, PARA UÑAS, PARA MUJER, PARA MANICURA DE SALÓN Y BRICOLAJE"
+    },
+    {
+        "id": 100,
+        "name": "TIPS SOFTGEL MISSCHEERING 120 PCS 3D ALMOND - 03",
+        "brand": "MISSCHEERING",
+        "price": 28,
+        "categoryId": "7",
+        "image": "1776731963_69e6c73b7e8b7.jpg",
+        "description": "120\/140 UÑAS POSTIZAS ACRÍLICAS ARTIFICIALES EN FORMA DE ALMENDRA Y DIAMANTE PARA BALLET, TIPO BALLET"
+    },
+    {
+        "id": 101,
+        "name": "GEL DE PINTURA DE 9 COLORES ROSADOS JILLRADIA - PINK",
+        "brand": "JILLRADIA",
+        "price": 32,
+        "categoryId": "8",
+        "image": "1776732776_69e6ca682a609.jpg",
+        "description": "SERIE NUEVA DE ESMALTE EN GEL SÓLIDO ROSA NUDE SUAVE DE 9 COLORES, ESMALTE EN GEL VERSÁTIL PARA CREAR EFECTOS DE DEGRADADO, PERFECTO PARA DISEÑOS DE ARTE DE UÑAS DE MODA DE SALÓN CON UN BRILLO LUSTROSO, LA ELECCIÓN IDEAL PARA EL CUIDADO DE UÑAS DE MUJER"
+    },
+    {
+        "id": 102,
+        "name": "GEL DE PINTURA DE 12 COLORES VARIOS - MORDDA",
+        "brand": "MORDDA",
+        "price": 38,
+        "categoryId": "8",
+        "image": "1776733048_69e6cb78ec2d4.jpg",
+        "description": "MORDDA 12 COLORES NUEVO POPULAR GEL SÓLIDO PARA UÑAS GEL SEMI PERMANENTE UÑAS ARTÍSTICAS REMOJO GEL LED MANICURA DE NAVIDAD REGALO SALÓN DE UÑAS MANICURA"
+    },
+    {
+        "id": 103,
+        "name": "GEL DE PINTURA DE 9 COLORES OJO DE GATO JILLRADIA - PURPLE",
+        "brand": "JILLRADIA",
+        "price": 32,
+        "categoryId": "8",
+        "image": "1776733274_69e6cc5ae0f2c.jpg",
+        "description": "KIT DE ESMALTE DE UÑAS EN GEL EFECTO OJO DE GATO SÓLIDO MORADO JILLRADIA DE 9 COLORES, POLVO MAGNÉTICO DE ALTA DENSIDAD, FÁCIL DE USAR PARA UN ARTE DE UÑAS IMPRESIONANTE EN CASA, KIT DE INICIO DIY PARA PRINCIPIANTES Y PROFESIONALES."
+    },
+    {
+        "id": 104,
+        "name": "GEL DE PINTURA DE 9 COLORES MARRONES JILLRADIA - BROWNS",
+        "brand": "JILLRADIA",
+        "price": 32,
+        "categoryId": "8",
+        "image": "1776733447_69e6cd073aeb1.jpg",
+        "description": "JILLRADIA GEL DE UÑAS EN GEL SÓLIDO SEMIPERMANENTE PARA ARTE DE UÑAS, NUEVO Y POPULAR, EN 9 COLORES, GEL DE INMERSIÓN LED, REGALO DE MANICURA DE NAVIDAD PARA SALÓN DE UÑAS, MANICURA DIY"
+    },
+    {
+        "id": 105,
+        "name": "SET ESMALTES GEL OJO DE GATO BUBBLE SWEET SUMMER",
+        "brand": "XEIJAYI",
+        "price": 75,
+        "categoryId": "12",
+        "image": "1776735184_69e6d3d057192.jpg",
+        "description": "CONJUNTO DE UÑAS CAT EYE GEL MAGNÉTICO REFLECTANTE HOLOGRÁFICO EN 6 COLORES (M183 - M184 - M185 - M186 - M187 - M188), 15ML"
+    },
+    {
+        "id": 107,
+        "name": "SET DE ESMALTES COLECCION ROSADOS X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1776735651_69e6d5a373834.jpg",
+        "description": "ESMALTE DE UÑAS DE VERANO ENCANTADOR MANICURA DE TEMPORADA SET DE 6 COLORES 15ML ESMALTE DE UÑAS SOAK-OFF LED ESMALTE DE UÑAS SALÓN MUJER HERRAMIENTAS DE MANICURA MODA DE LAS CUATRO ESTACIONES"
+    },
+    {
+        "id": 108,
+        "name": "SET DE ESMALTES COLORES JELLYS COLECCION JELLY AMBER X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1776736257_69e6d80104cf1.jpg",
+        "description": "XEIJAYI KIT DE UÑAS EN MARCO BOTELLA ÁMBAR 6 COLORES - KIT DE UÑAS DE OTOÑO E INVIERNO A LA MODA CON GEL DE UÑAS ULTRA BRILLANTE SERIE ÁMBAR DE 6 COLORES. GEL LED MODERNO, FÁCIL Y VERSÁTIL CON UN ACABADO BRILLANTE\r\n6 PIEZAS (101+102+103+136+137+138"
+    },
+    {
+        "id": 109,
+        "name": "PULIDORA DE UÑAS PROFESIONAL 45.000 RPM - ROSA",
+        "brand": "GENERICO",
+        "price": 145,
+        "categoryId": "9",
+        "image": "1776801714_69e7d7b23a62e.jpg",
+        "description": "MÁQUINA ELÉCTRICA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA"
+    },
+    {
+        "id": 110,
+        "name": "PERLAS BLANCAS SEMICIRCULAR DE 12 CUADRÍCULAS - CAJA 6 TAMAÑOS",
+        "brand": "GENERICO",
+        "price": 12,
+        "categoryId": "7",
+        "image": "1776802062_69e7d90e89a41.jpg",
+        "description": "ACCESORIOS DE ARTE DE UÑAS DE PERLA BLANCA SEMICIRCULAR DE 12 CUADRÍCULAS, RHINESTONES DE UÑAS, DECORACIONES DE UÑAS"
+    },
+    {
+        "id": 111,
+        "name": "POLVO ACRÍLICO TRANSPARENTE NOCIS - PROFESIONAL PARA UÑAS - 60 G - 2 ONZ",
+        "brand": "NOCIS",
+        "price": 24,
+        "categoryId": "10",
+        "image": "1776802849_69e7dc21d755d.jpg",
+        "description": "POLVO ACRÍLICO TRANSPARENTE CLEAR - KIT DE 60 GRAMOS DE POLVO ACRÍLICO PROFESIONAL PARA UÑAS PARA EXTENSIÓN Y FORTALECIMIENTO, SUMINISTROS DE MANICURA FRANCESA CON ESCULPIDURA 3D, NAIL ART"
+    },
+    {
+        "id": 112,
+        "name": "POLVO ACRÍLICO BLANCO NOCIS - PROFESIONAL PARA UÑAS - 60 G - 2 ONZ",
+        "brand": "NOCIS",
+        "price": 24,
+        "categoryId": "10",
+        "image": "1776802935_69e7dc7753936.jpg",
+        "description": "POLVO ACRÍLICO BLANCO - KIT DE 60 GRAMOS DE POLVO ACRÍLICO PROFESIONAL PARA UÑAS PARA EXTENSIÓN Y FORTALECIMIENTO, SUMINISTROS DE MANICURA FRANCESA CON ESCULPIDURA 3D, NAIL ART"
+    },
+    {
+        "id": 113,
+        "name": "BLOOMING GEL EFECTO - XEIJAYI 15 ML",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "2",
+        "image": "1776803711_69e7df7f3b349.jpg",
+        "description": "UNIDAD DE 15ML DE GEL DE UÑAS NUEVO Y POPULAR, SEMI PERMANENTE, PARA REMOJO, LED, SALÓN DE UÑAS, GEL PARA UÑAS"
+    },
+    {
+        "id": 114,
+        "name": "ESMALTE GEL OJO DE GATO MARRON CAFE LUXURY - 03",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1776805651_69e7e71325d91.jpg",
+        "description": "XEIJAYI 15ML GEL MAGNÉTICO SEMI PERMANENTE OJO DE GATO REFLECTANTE PARA UÑAS, ARTE DE UÑAS LED, GEL PARA SALÓN DE MANICURA DIY"
+    },
+    {
+        "id": 116,
+        "name": "ESMALTE GEL OJO DE GATO AZUL DOPAMINA - 06",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1776805879_69e7e7f74d4c9.jpg",
+        "description": "XEIJAYI 15ML GEL MAGNÉTICO SEMI PERMANENTE OJO DE GATO REFLECTANTE PARA UÑAS, ARTE DE UÑAS LED, GEL PARA SALÓN DE MANICURA DIY"
+    },
+    {
+        "id": 117,
+        "name": "ESMALTE GEL OJO DE GATO AMARILLO DREAM STAR - 03",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1776805954_69e7e842d5603.jpg",
+        "description": "XEIJAYI 15ML GEL MAGNÉTICO SEMI PERMANENTE OJO DE GATO REFLECTANTE PARA UÑAS, ARTE DE UÑAS LED, GEL PARA SALÓN DE MANICURA DIY"
+    },
+    {
+        "id": 118,
+        "name": "IMAN PARA EFECTO OJO DE GATO DOBLE PUNTA CON ESFERA GOLD ROSE",
+        "brand": "GLOVE",
+        "price": 18,
+        "categoryId": "5",
+        "image": "1776806292_69e7e9949977b.jpg",
+        "description": "JUEGO DE BOLAS MAGNÉTICAS DE ACERO PARA UÑAS CON MANGO LARGO DE ALUMINIO, DOBLE PUNTA, HERRAMIENTA MAGNÉTICA PARA ESMALTE DE UÑAS GEL, MANICURA Y EFECTO OJO DE GATO"
+    },
+    {
+        "id": 119,
+        "name": "ESMALTE GEL OJO DE GATO MARRON CAFE LUXURY - 02",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1776817571_69e815a34b6cd.jpg",
+        "description": "TENDENCIAS DE UÑAS OJO DE GATO 2026 ARTE DE UÑAS HOLOGRÁFICO 15ML GEL DE UÑAS MAGNÉTICO REFLECTANTE OJO DE GATO PARA REMOJO GEL LED SALÓN HERRAMIENTAS DE ARTE DE UÑAS FEMENINAS GEL DE UÑAS"
+    },
+    {
+        "id": 120,
+        "name": "ESMALTE GEL OJO DE GATO AZUL KLEIN - M204",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1776817731_69e816439ba1a.jpg",
+        "description": "ESMALTE XEIJAYI DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 121,
+        "name": "ESMALTE GEL OJO DE GATO PURPURA - 09",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1776817844_69e816b41fc11.jpg",
+        "description": "ESMALTE XEIJAYI DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 122,
+        "name": "SET DE ESMALTES COLECCION VERDES X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1776818118_69e817c66d934.jpg",
+        "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 123,
+        "name": "TIJERAS PARA CUTÍCULAS",
+        "brand": "GENERICO",
+        "price": 12,
+        "categoryId": "3",
+        "image": "1776820065_69e81f6184298.jpg",
+        "description": "TIJERAS PARA CUTÍCULAS, CORTA CUTÍCULAS, CORTA CUTÍCULAS DE ACERO INOXIDABLE, TIJERAS PARA ELIMINAR PIEL MUERTA, HERRAMIENTAS DE MANICURA"
+    },
+    {
+        "id": 124,
+        "name": "SET DE 2 IMANES MAGNÉTICOS PARA UÑAS (REDONDOS Y CILÍNDRICOS)",
+        "brand": "GLOVE",
+        "price": 8,
+        "categoryId": "5",
+        "image": "1776820398_69e820aed93af.jpg",
+        "description": "SET DE 2 IMANES MAGNÉTICOS PARA UÑAS (REDONDOS Y CILÍNDRICOS) – LÁPIZ MAGNÉTICO PARA UÑAS, DISEÑO DE UÑAS, ADSORCIÓN MAGNÉTICA PARA SALÓN DE UÑAS Y USO DOMÉSTICO, DECORACIÓN MAGNÉTICA PARA UÑAS"
+    },
+    {
+        "id": 125,
+        "name": "BROCA ACERO DE TUNGSTENO PROFESIONAL 5 EN 1",
+        "brand": "GENERICO",
+        "price": 14,
+        "categoryId": "3",
+        "image": "1776820620_69e8218c9e240.jpg",
+        "description": "FRESAS DE ACERO DE TUNGSTENO PROFESIONALES 5 EN 1 PARA TALADRO DE UÑAS, CORTADOR DE FRESADO DE DIENTES CRUZADOS PARA MANICURA ELÉCTRICA, ACCESORIO DE HERRAMIENTA DE MANICURA PARA ELIMINACIÓN DE GEL"
+    },
+    {
+        "id": 126,
+        "name": "BORN PRETTY 2 PCS 15 ML KIT DE PREPARACION DE UÑAS -  DESHIDRATADOR-PRIMER",
+        "brand": "BORN PRETTY",
+        "price": 36,
+        "categoryId": "13",
+        "image": "1777528096_69f2ed20df1d4.jpg",
+        "description": "BORN PRETTY 2 PIEZAS 15ML KIT DE PREPARACIÓN DE UÑAS DESHIDRATADOR-PRIMER - 3S SECADO RÁPIDO EN EL AIRE, SIN ALCOHOL, DURADERA MÁS DE 28 DÍAS, PARA LIMPIEZA Y ELIMINACIÓN DE POLVO Y ACEITE DE UÑAS, CON FÓRMULA NATURAL PARA UÑAS SALUDABLES, ESENCIALES PARA EL CUIDADO DE LAS UÑAS | FÓRMULA DE SECADO RÁPIDO | FÓRMULA SIN ALCOHOL, KIT DE CUIDADO DE UÑAS"
+    },
+    {
+        "id": 127,
+        "name": "LAMPARA UV DISEÑO TIPO LINTERNA - ROSADA",
+        "brand": "GENERICO",
+        "price": 20,
+        "categoryId": "4",
+        "image": "1777528344_69f2ee1829951.jpg",
+        "description": "LÁMPARA DE UÑAS INALÁMBRICA \/ SECADORA CON PANTALLA LCD Y INTERRUPTOR DE BOTÓN - SET DE MANICURA Y PEDICURA RECARGABLE, ALIMENTADA POR USB, DISEÑO COMPACTO PARA USO EN CASA O SALÓN, LÁMPARA DE UÑAS PARA MANICURA, EQUIPO DE SALÓN, PLÁSTICO DURADERO"
+    },
+    {
+        "id": 128,
+        "name": "ESMALTE GEL OJO DE GATO AZUL GLACIAL - 06",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1777528468_69f2ee94e60bf.jpg",
+        "description": "ESMALTE XEIJAYI DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 129,
+        "name": "ESMALTE GEL OJO DE GATO DUO TONO PAVO REAL - 04",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1777528647_69f2ef47d81c7.jpg",
+        "description": "ESMALTE XEIJAYI DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 130,
+        "name": "GEL DE PINTURA DE 9 COLORES MARRONES MOCMAKI - SATURADOS",
+        "brand": "JILLRADIA",
+        "price": 32,
+        "categoryId": "8",
+        "image": "1777915281_69f8d591ca612.jpg",
+        "description": "GEL DE PINTURA DEGRADADA, 9 COLORES DE ESMALTE DE UÑAS EN GEL OMBRÉ PARA UÑAS OMBRÉ Y UÑAS AURA, MANICURA FRANCESA, ARTE DE UÑAS DIY, SERIE DOPAMINA ARCOÍRIS, MODA PRIMAVERA VERANO 2025, BRILLO DE ALTA SATURACIÓN, REMOJO DURADERO DE LA PALETA SOLAR FLARE"
+    },
+    {
+        "id": 131,
+        "name": "IMAN 2 PCS ANILLO - ESTILO HUECO FRANCÉS OJO DE GATO",
+        "brand": "GENERICO",
+        "price": 12,
+        "categoryId": "5",
+        "image": "1777915649_69f8d701df280.jpg",
+        "description": "2 PIEZAS NUEVO ESTILO HUECO FRANCÉS OJO DE GATO DE ALTA BRILLANTEZ ANILLO DE UÑA IMÁN CUADRADO, FÁCIL OPERACIÓN, UNA FORMACIÓN DE COLOCACIÓN, ADECUADO PARA SALONES DE UÑAS Y PRODUCCIÓN ARTESANAL DE ENTUSIASTAS DE LAS UÑAS, HERRAMIENTA AUXILIAR DE UÑAS"
+    },
+    {
+        "id": 132,
+        "name": "SET DE 100 ESPONJAS Y CLIPS PARA UÑAS, ESPONJAS DEGRADADAS",
+        "brand": "GENERICO",
+        "price": 15,
+        "categoryId": "3",
+        "image": "1777915808_69f8d7a0ba0d5.jpg",
+        "description": "SET DE 100 ESPONJAS Y CLIPS PARA UÑAS, ESPONJAS DEGRADADAS PARA CREAR ESTILOS DE UÑAS OMBRE, BLANCO PURO Y SIN PELUSA, IDEAL PARA NAIL ART, SALONES DE UÑAS Y FORMACIÓN EN MANICURA - BLOQUES DE ESPONJA SUAVES Y SIN PELUSA PARA APLICACIÓN DEGRADADA"
+    },
+    {
+        "id": 133,
+        "name": "ESMALTE GEL OJO DE GATO ROJO AURORA - M129",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1777917432_69f8ddf8280a4.jpg",
+        "description": "ESMALTE XEIJAYI DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 134,
+        "name": "ESMALTE GEL OJO DE GATO ROSADO BUBBLE SWEET SUMMER - M186",
+        "brand": "XEIJAYI",
+        "price": 20,
+        "categoryId": "12",
+        "image": "1777917783_69f8df573f554.jpg",
+        "description": "TENDENCIAS DE UÑAS EFECTO OJO DE GATO 2026, ARTE DE UÑAS HOLOGRÁFICO, 6 COLORES, 15 ML, GEL MAGNÉTICO REFLECTANTE EFECTO OJO DE GATO, GEL DE INMERSIÓN LED PARA SALÓN, HERRAMIENTAS DE ARTE DE UÑAS PARA MUJER, GEL DE UÑAS DE MODA"
+    },
+    {
+        "id": 135,
+        "name": "PEGAMENTO PARA SOFTGEL XEIJAYI DE 15 ML",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "11",
+        "image": "1777918680_69f8e2d86617f.jpg",
+        "description": "PIEZA DE PARCHE ADHESIVO PARA UÑAS 15ML CON TECNOLOGÍA LED, REMOVIBLE EN INMERSIÓN, DISEÑO DE ARTE PARA UÑAS, MEJORA DE UÑAS EN CASA, GEL FOTOTERAPÉUTICO NUEVO"
+    },
+    {
+        "id": 136,
+        "name": "CORTA CUTICULA COLOR JAPONES DOBLE RESORTE",
+        "brand": "GENERICO",
+        "price": 18,
+        "categoryId": "3",
+        "image": "1777942006_69f93df6f0af2.jpg",
+        "description": "1 PIEZA DE CORTAÚÑAS PROFESIONAL DE QUERATINA, HERRAMIENTA RECORTADORA DE UÑAS DE DOBLE RESORTE - EL KIT DE CUIDADO DE UÑAS PERFECTO PARA PEDICURAS Y BELLEZA EN CASA\/SPA\/SALÓN, PEDICURAS, ARTE DE UÑAS EN CASA, RECORTADORA DE PRECISIÓN, DISEÑO DE DOBLE HOJA, RECORTADORA DE ALTA CALIDAD"
+    },
+    {
+        "id": 137,
+        "name": "ESMALTE EN GEL XEIJAYI METALIZADO PLATEADO - MT02",
+        "brand": "XEIJAYI",
+        "price": 20,
+        "categoryId": "11",
+        "image": "1777942992_69f941d054c9a.jpg",
+        "description": "NUEVO GEL DE PINTURA DE ALTA DENSIDAD PARA DECORACIÓN DE UÑAS, CON PEGAMENTO METÁLICO ESPEJO PLATINO PLATEADO CON BRILLO DESLUMBRANTE, PERFECTO PARA SALONES DE BELLEZA Y DISEÑOS DE UÑAS"
+    },
+    {
+        "id": 138,
+        "name": "SET ESMALTES GEL OJO DE GATO LUXURY COFFEE",
+        "brand": "XEIJAYI",
+        "price": 75,
+        "categoryId": "12",
+        "image": "1777943318_69f9431624d53.jpg",
+        "description": "SET DE ESMALTES DE UÑAS OJO DE GATO 6 COLORES 15ML ESMALTE DE UÑAS MAGNÉTICO REFLECTANTE OJO DE GATO PARA REMOJO GEL LED SALÓN HERRAMIENTAS DE ARTE DE UÑAS PARA MUJER MODA ARTE DE UÑAS HOLOGRÁFICO"
+    },
+    {
+        "id": 139,
+        "name": "POLVO HOLOGRÁFICO DE UNICORNIO ARCOÍRIS",
+        "brand": "GENERICO",
+        "price": 9,
+        "categoryId": "7",
+        "image": "1777943743_69f944bf076b4.jpg",
+        "description": "POLVO HOLOGRÁFICO DE UNICORNIO ARCOÍRIS - POLVO DE PURPURINA CON EFECTO ESPEJO PARA ARTE DE UÑAS DIY"
+    },
+    {
+        "id": 140,
+        "name": "XEIJAYI TOP COAT SUPER GLASS TRANSPARENTE - PRESENTACION 15 ML",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "2",
+        "image": "1778020974_69fa726e09d06.jpg",
+        "description": "XEIJAYI 1 PIEZA 15ML GEL DE ACABADO BRILLANTE Y REMOVIBLE CON LÁMPARA LED - PERFECTO PARA DISEÑO EN UÑAS"
+    },
+    {
+        "id": 141,
+        "name": "SET DE ESMALTES COLECCION ROJO X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "11",
+        "image": "1778021257_69fa7389a4dce.jpg",
+        "description": "ESMALTE DE UÑAS LED DE REMOJO DE 15 ML, SET DE 6 COLORES PARA MANICURA DE TEMPORADA DE VERANO, HERRAMIENTAS DE MANICURA PARA SALÓN DE UÑAS PARA MUJER, MODA PARA LAS CUATRO ESTACIONES"
+    },
+    {
+        "id": 142,
+        "name": "SET DE ESMALTES EFECTO OJO DE GATO COLECCION BRILLANTE VIVIDO X6",
+        "brand": "XEIJAYI",
+        "price": 75,
+        "categoryId": "12",
+        "image": "1778022121_69fa76e980fc8.jpg",
+        "description": "SET DE ESMALTE DE UÑAS EFECTO OJO DE GATO DE 6 PIEZAS DE 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA INMERSIÓN, GEL LED PARA SALÓN, HERRAMIENTAS DE ARTE DE UÑAS PARA MUJER, ARTE DE UÑAS HOLOGRÁFICO DE MODA"
+    },
+    {
+        "id": 143,
+        "name": "ESMALTE GEL OJO DE GATO PINK GRAPEFRUIT",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778026503_69fa880799f7c.jpg",
+        "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 144,
+        "name": "GEL DE PINTURA DE 9 COLORES MARRONES JILLRADIA - CACAO CARAMEL",
+        "brand": "JILLRADIA",
+        "price": 32,
+        "categoryId": "8",
+        "image": "1778026671_69fa88af9c62a.jpg",
+        "description": "JILLRADIA 9 COLORES PEGAMENTO PARA MASAJE, LÁPIZ LABIAL EN LATA DE ALTA SATURACIÓN, POPULAR, SEMI-SÓLIDO, PEGAMENTO PARA UÑAS, MANICURA PARA SALÓN DE BELLEZA"
+    },
+    {
+        "id": 145,
+        "name": "XEIJAYI FIBER GEL BASE RUBBER 100 ML",
+        "brand": "XEIJAYI",
+        "price": 50,
+        "categoryId": "2",
+        "image": "1778027094_69fa8a56d50c6.jpg",
+        "description": "XEIJAYI 1 PIEZA DE GEL DE FIBRA PARA UÑAS DE 100 ML PARA UÑAS ROTAS, GEL TRANSPARENTE PARA UÑAS, FORTALECEDOR DE UÑAS EN GEL PARA UÑAS DELGADAS"
+    },
+    {
+        "id": 146,
+        "name": "SET DE ESMALTES COLORES ROJOS COLECCION PASION X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "11",
+        "image": "1778032451_69fa9f4323af2.jpg",
+        "description": "JUEGO DE 6 ESMALTES DE UÑAS EN GEL DE 15 ML, KITS DE ESMALTE EN GEL SEMIPERMANENTE PARA MANICURA, REMOVIBLE CON REMOJO, PARA LED, ARTE DE UÑAS DIY"
+    },
+    {
+        "id": 147,
+        "name": "ESMALTE GEL OJO DE GATO AMARILLO DE LA SUERTE",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778032716_69faa04c02e73.jpg",
+        "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 148,
+        "name": "ESMALTE GEL OJO DE GATO MARRON CAFE LUXURY - 03",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778032820_69faa0b442d63.jpg",
+        "description": "XEIJAYI 15ML GEL MAGNÉTICO SEMI PERMANENTE OJO DE GATO REFLECTANTE PARA UÑAS, ARTE DE UÑAS LED, GEL PARA SALÓN DE MANICURA DIY"
+    },
+    {
+        "id": 149,
+        "name": "ESMALTE GEL OJO DE GATO DORADO ROMANCE 16",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778032925_69faa11d9d846.jpg",
+        "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    }
+];
