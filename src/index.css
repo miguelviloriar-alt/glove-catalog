@@ -85,8 +85,13 @@ button {
 }
 
 .header-logo img {
-  height: 45px;
-  filter: drop-shadow(0 0 8px var(--primary-glow));
+  height: 65px; /* Aumentado aprox 30-40% */
+  filter: drop-shadow(0 0 10px var(--primary-glow));
+  transition: transform 0.3s ease;
+}
+
+.header-logo img:hover {
+  transform: scale(1.05);
 }
 
 .cart-button {
@@ -124,15 +129,27 @@ button {
   max-width: 80%;
 }
 
-/* Search Bar New Style */
-.search-container {
-  position: relative;
+/* Search Bar New Style with outside icon */
+.search-outer-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 30px;
+}
+
+.search-icon-left {
+  color: var(--text-white);
+  flex-shrink: 0;
+}
+
+.search-container {
+  flex: 1;
+  position: relative;
 }
 
 .search-input {
   width: 100%;
-  padding: 16px 20px 16px 48px;
+  padding: 16px 20px;
   border-radius: 100px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-color: var(--bg-white);
@@ -143,14 +160,20 @@ button {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-.search-icon-wrapper {
-  position: absolute;
-  left: 18px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--text-dark);
-  opacity: 0.5;
-  pointer-events: none;
+.category-select-glass {
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--text-white);
+  font-family: inherit;
+  font-size: 0.85rem;
+  outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 14px;
 }
 
 /* Categories New Style */

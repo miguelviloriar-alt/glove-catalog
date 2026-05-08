@@ -47,20 +47,50 @@ export default function Home() {
           Descubre todos nuestros productos de belleza y cuidado personal.
         </p>
 
-        <div className="search-container">
-          <div className="search-icon-wrapper">
-            <Search size={20} />
+        <div className="search-outer-container">
+          <Search size={24} className="search-icon-left" />
+          <div className="search-container">
+            <input 
+              type="text" 
+              placeholder="Buscar productos..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="search-input"
+            />
           </div>
-          <input 
-            type="text" 
-            placeholder="Buscar productos..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="search-input"
-          />
         </div>
 
         <CategoryMenu activeCategory={activeCategory} setActiveCategory={setActiveCategory} />
+
+        <div className="extra-filters" style={{ display: 'flex', gap: '10px', marginTop: '24px' }}>
+          <select 
+            className="category-select-glass"
+            value={activeCategory}
+            onChange={(e) => setActiveCategory(e.target.value)}
+            style={{ flex: 1 }}
+          >
+            <option value="all">Todas las Categorías</option>
+            <option value="2">ESMALTES GEL</option>
+            <option value="3">HERRAMIENTAS</option>
+            <option value="7">ACCESORIOS</option>
+            <option value="4">LAMPARAS UV</option>
+            <option value="6">PINCELES</option>
+            <option value="11">GEL</option>
+            <option value="12">OJO DE GATO</option>
+          </select>
+
+          <select 
+            className="category-select-glass"
+            value={activeBrand}
+            onChange={(e) => setActiveBrand(e.target.value)}
+            style={{ flex: 1 }}
+          >
+            <option value="all">Todas las Marcas</option>
+            {brands.map(brand => (
+              <option key={brand} value={brand}>{brand}</option>
+            ))}
+          </select>
+        </div>
       </div>
       
       <div className="main-content">
