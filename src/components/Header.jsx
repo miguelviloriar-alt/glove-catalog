@@ -7,14 +7,14 @@ export default function Header({ toggleCart }) {
   const navigate = useNavigate();
 
   return (
-    <header className="header">
-      <div className="header-logo" onClick={() => navigate('/')} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
-        <img src="/logo.png" alt="GLOVE BEAUTY" style={{ height: '35px', objectFit: 'contain' }} />
+    <header className="header" style={{ justifyContent: 'center', position: 'relative' }}>
+      <div className="header-logo" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+        <img src="/logo.png" alt="GLOVE BEAUTY" />
       </div>
-      <button className="cart-button" onClick={toggleCart} aria-label="Abrir carrito">
-        <ShoppingBag size={20} />
+      <button className="cart-button" onClick={toggleCart} aria-label="Abrir carrito" style={{ position: 'absolute', right: '24px' }}>
+        <ShoppingBag size={22} strokeWidth={1.5} />
         {cartItemsCount > 0 && (
-          <span className="cart-badge">{cartItemsCount}</span>
+          <span className="cart-badge" style={{ border: '2px solid var(--bg-dark)' }}>{cartItemsCount}</span>
         )}
       </button>
     </header>
