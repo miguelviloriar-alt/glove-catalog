@@ -7,7 +7,7 @@ export default function FloatingCart() {
 
   const handleCheckout = () => {
     // Build WhatsApp message
-    const phoneNumber = "5211234567890"; // Reemplazar con el número real
+    const phoneNumber = "51989929942"; // Reemplazar con el número real
     let message = "Hola! Me gustaría hacer el siguiente pedido de GLOVE BEAUTY STORE:%0A%0A";
     
     cart.forEach(item => {
