@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import CategoryMenu from '../components/CategoryMenu';
 import ProductCard from '../components/ProductCard';
 import FloatingCart from '../components/FloatingCart';
-import { products } from '../data';
+import { products, categories } from '../data';
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -16,6 +16,12 @@ export default function Home() {
     const uniqueBrands = [...new Set(products.map(p => p.brand).filter(Boolean))];
     return uniqueBrands.sort();
   }, []);
+
+  const resetFilters = () => {
+    setActiveCategory('all');
+    setActiveBrand('all');
+    setSearchQuery('');
+  };
 
   const filteredProducts = useMemo(() => {
     let result = products;
@@ -29,7 +35,22 @@ export default function Home() {
       const q = searchQuery.toLowerCase();
       result = result.filter(p => p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q));
     }
-    return result;
+
+    // Sort by category name alphabetically
+    const categoryMap = categories.reduce((acc, cat) => {
+      acc[cat.id] = cat.name;
+      return acc;
+    }, {});
+
+    return [...result].sort((a, b) => {
+      const catA = categoryMap[a.categoryId] || "";
+      const catB = categoryMap[b.categoryId] || "";
+      
+      if (catA !== catB) {
+        return catA.localeCompare(catB);
+      }
+      return a.name.localeCompare(b.name);
+    });
   }, [activeCategory, activeBrand, searchQuery]);
 
   return (
@@ -95,7 +116,7 @@ export default function Home() {
       
       <div className="main-content">
         <h2 className="section-title">
-          {activeCategory === 'all' ? 'Todos los productos' : `Categoría: ${activeCategory}`}
+          {activeCategory === 'all' ? 'Todos los productos' : `Resultados`}
         </h2>
 
         <motion.div layout className="product-grid">
@@ -107,7 +128,11 @@ export default function Home() {
         </motion.div>
         
         <div style={{ marginTop: '30px', textAlign: 'center' }}>
-          <button className="details-add-btn" style={{ background: 'var(--primary-color)' }}>
+          <button 
+            className="details-add-btn" 
+            style={{ background: 'var(--primary-color)' }}
+            onClick={resetFilters}
+          >
             Ver todos los productos
           </button>
         </div>
