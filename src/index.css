@@ -481,6 +481,7 @@ button {
 /* Product Details Page */
 .details-page {
   background-color: var(--white);
+  color: var(--text-dark);
   min-height: 100vh;
   padding-bottom: 100px;
 }
@@ -537,6 +538,7 @@ button {
   font-weight: 700;
   margin-bottom: 12px;
   line-height: 1.2;
+  color: var(--text-dark);
 }
 
 .details-price {
