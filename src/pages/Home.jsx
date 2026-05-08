@@ -29,7 +29,7 @@ export default function Home() {
       result = result.filter(p => p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q));
     }
     return result;
-  }, [activeCategory, searchQuery]);
+  }, [activeCategory, activeBrand, searchQuery]);
 
   return (
     <motion.div 
