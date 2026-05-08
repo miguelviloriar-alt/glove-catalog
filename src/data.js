@@ -194,7 +194,7 @@ export const products = [
         "name": "XEIJAYI TOP COAT GLASS CLEAR - PRESENTACION 100 ML",
         "brand": "XEIJAYI",
         "price": 50,
-        "categoryId": "2",
+        "categoryId": "11",
         "image": "1775435867_69d3005b2b953.jpg",
         "description": "TOP COAT GLASS DE LA MARCA XEIJAYI EN PRESENTACION DE 100 ML"
     },
@@ -275,7 +275,7 @@ export const products = [
         "name": "XEIJAYI BASE RUBBER FIBER - TRANSPARENTE 15ML",
         "brand": "XEIJAYI",
         "price": 20,
-        "categoryId": "2",
+        "categoryId": "11",
         "image": "1775527129_69d464d95fa28.jpg",
         "description": "XEIJAYI BASE RUBBER FIBER - TRANSPARENTE 15ML"
     },
@@ -1031,7 +1031,7 @@ export const products = [
         "name": "BLOOMING GEL EFECTO - XEIJAYI 15 ML",
         "brand": "XEIJAYI",
         "price": 18,
-        "categoryId": "2",
+        "categoryId": "11",
         "image": "1776803711_69e7df7f3b349.jpg",
         "description": "UNIDAD DE 15ML DE GEL DE UÑAS NUEVO Y POPULAR, SEMI PERMANENTE, PARA REMOJO, LED, SALÓN DE UÑAS, GEL PARA UÑAS"
     },
@@ -1238,7 +1238,7 @@ export const products = [
         "name": "ESMALTE EN GEL XEIJAYI METALIZADO PLATEADO - MT02",
         "brand": "XEIJAYI",
         "price": 20,
-        "categoryId": "11",
+        "categoryId": "2",
         "image": "1777942992_69f941d054c9a.jpg",
         "description": "NUEVO GEL DE PINTURA DE ALTA DENSIDAD PARA DECORACIÓN DE UÑAS, CON PEGAMENTO METÁLICO ESPEJO PLATINO PLATEADO CON BRILLO DESLUMBRANTE, PERFECTO PARA SALONES DE BELLEZA Y DISEÑOS DE UÑAS"
     },
@@ -1265,7 +1265,7 @@ export const products = [
         "name": "XEIJAYI TOP COAT SUPER GLASS TRANSPARENTE - PRESENTACION 15 ML",
         "brand": "XEIJAYI",
         "price": 18,
-        "categoryId": "2",
+        "categoryId": "11",
         "image": "1778020974_69fa726e09d06.jpg",
         "description": "XEIJAYI 1 PIEZA 15ML GEL DE ACABADO BRILLANTE Y REMOVIBLE CON LÁMPARA LED - PERFECTO PARA DISEÑO EN UÑAS"
     },
@@ -1274,7 +1274,7 @@ export const products = [
         "name": "SET DE ESMALTES COLECCION ROJO X6",
         "brand": "XEIJAYI",
         "price": 65,
-        "categoryId": "11",
+        "categoryId": "2",
         "image": "1778021257_69fa7389a4dce.jpg",
         "description": "ESMALTE DE UÑAS LED DE REMOJO DE 15 ML, SET DE 6 COLORES PARA MANICURA DE TEMPORADA DE VERANO, HERRAMIENTAS DE MANICURA PARA SALÓN DE UÑAS PARA MUJER, MODA PARA LAS CUATRO ESTACIONES"
     },
@@ -1310,7 +1310,7 @@ export const products = [
         "name": "XEIJAYI FIBER GEL BASE RUBBER 100 ML",
         "brand": "XEIJAYI",
         "price": 50,
-        "categoryId": "2",
+        "categoryId": "11",
         "image": "1778027094_69fa8a56d50c6.jpg",
         "description": "XEIJAYI 1 PIEZA DE GEL DE FIBRA PARA UÑAS DE 100 ML PARA UÑAS ROTAS, GEL TRANSPARENTE PARA UÑAS, FORTALECEDOR DE UÑAS EN GEL PARA UÑAS DELGADAS"
     },
@@ -1319,7 +1319,7 @@ export const products = [
         "name": "SET DE ESMALTES COLORES ROJOS COLECCION PASION X6",
         "brand": "XEIJAYI",
         "price": 65,
-        "categoryId": "11",
+        "categoryId": "2",
         "image": "1778032451_69fa9f4323af2.jpg",
         "description": "JUEGO DE 6 ESMALTES DE UÑAS EN GEL DE 15 ML, KITS DE ESMALTE EN GEL SEMIPERMANENTE PARA MANICURA, REMOVIBLE CON REMOJO, PARA LED, ARTE DE UÑAS DIY"
     },
