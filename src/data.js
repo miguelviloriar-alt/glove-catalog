@@ -995,9 +995,9 @@ export const products = [
         "name": "PULIDORA DE UÑAS PROFESIONAL 45.000 RPM - ROSA",
         "brand": "GENERICO",
         "price": 145,
-        "categoryId": "9",
+        "categoryId": "3",
         "image": "1776801714_69e7d7b23a62e.jpg",
-        "description": "MÁQUINA ELÉCTRICA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA"
+        "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL"
     },
     {
         "id": 110,
@@ -1321,7 +1321,7 @@ export const products = [
         "price": 65,
         "categoryId": "2",
         "image": "1778032451_69fa9f4323af2.jpg",
-        "description": "JUEGO DE 6 ESMALTES DE UÑAS EN GEL DE 15 ML, KITS DE ESMALTE EN GEL SEMIPERMANENTE PARA MANICURA, REMOVIBLE CON REMOJO, PARA LED, ARTE DE UÑAS DIY"
+        "description": "JUEGO DE 6 ESMALTES DE UÑAS EN GEL DE 15 ML, KITS DE ESMALTE EN GEL SEMIPERMANENTE PARA MANICURA, REMOVIBLE CON REMOJO, PARA LED, ARTE DE UÑAS DIY, PARA SALÓN EN CASA, REGALO PARA MUJERES - 6PCS(80+81+82+105+77+FRAMBUESA)"
     },
     {
         "id": 147,
@@ -1349,5 +1349,50 @@ export const products = [
         "categoryId": "12",
         "image": "1778032925_69faa11d9d846.jpg",
         "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN"
+    },
+    {
+        "id": 150,
+        "name": "ESMALTE EN GEL OJO DE GATO DORADO GOLDEN 03",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778274096_69fe4f3046b61.jpg",
+        "description": "ESMALTE EN GEL EFECTO OJO DE GATO DORADO GOLDEN 03 PRESENTACION 15 ML"
+    },
+    {
+        "id": 151,
+        "name": "PULIDORA DE UÑAS PROFESIONAL 45.000 RPM - BLANCO",
+        "brand": "GENERICO",
+        "price": 145,
+        "categoryId": "3",
+        "image": "1778288587_69fe87cbc0032.jpg",
+        "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL"
+    },
+    {
+        "id": 152,
+        "name": "ESMALTE EN GEL OJO DE GATO CORTINA DE HUMO - M214",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778288913_69fe8911711e3.jpg",
+        "description": "ESMALTE EN GEL EFECTO OJO DE GATO MARRON DORADO M214 -  PRESENTACION 15 ML"
+    },
+    {
+        "id": 153,
+        "name": "ESMALTE GEL OJO DE GATO MARRON AZUL - M161",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778289012_69fe89741a33c.jpg",
+        "description": "ESMALTE EN GEL EFECTO OJO DE GATO AZUL MARRON DUO COLOR - M161"
+    },
+    {
+        "id": 154,
+        "name": "ESMALTE GEL OJO DE GATO MAMBO MENTA - M153",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778289154_69fe8a02da4b0.jpg",
+        "description": "ESMALTE EN GEL EFECTO OJO DE GATO VERDE MAMBO - M153 - OJO DE GATO VERDE"
     }
 ];
