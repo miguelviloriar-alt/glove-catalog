@@ -185,7 +185,7 @@ export const products = [
         "name": "ESMALTE EN GEL CON EFECTO OJO DE GATO COLOR ROJO PROFUNDO BLACKBERRY",
         "brand": "XEIJAYI",
         "price": 18,
-        "categoryId": "2",
+        "categoryId": "12",
         "image": "1775435740_69d2ffdcaa6ee.jpg",
         "description": "ESMALTE EN OJO DE GATO ROJO PROFUNDO (BLACKBERRY) PRESENTACION A DE 15ML"
     },
@@ -311,7 +311,7 @@ export const products = [
         "name": "ESMALTE GEL OJO DE GATO ROJO DARK PLUM",
         "brand": "XEIJAYI",
         "price": 18,
-        "categoryId": "2",
+        "categoryId": "12",
         "image": "1775537248_69d48c60e228b.jpg",
         "description": "ESMALTE GEL OJO DE GATO ROJO CIRUELA EBANO"
     },
@@ -338,7 +338,7 @@ export const products = [
         "name": "ESMALTE GEL OJO DE GATO ROJO FRAMBUESA",
         "brand": "XEIJAYI",
         "price": 18,
-        "categoryId": "2",
+        "categoryId": "12",
         "image": "1775537549_69d48d8d861b0.jpg",
         "description": "ESMALTE GEL OJO DE GATO ROJO FRAMBUESA"
     },
