@@ -344,12 +344,12 @@ export const products = [
     },
     {
         "id": 35,
-        "name": "BLANCO LECHOSO XEIJAYI - M001",
+        "name": "ESMALTE EN GEL BLANCO LECHOSO XEIJAYI - M001",
         "brand": "XEIJAYI",
         "price": 15,
         "categoryId": "2",
         "image": "1776231220_69df2334b34d8.jpg",
-        "description": "BLANCO LECHOSO XEIJAYI - M001"
+        "description": "ESMALTE EN GEL XEIJAYI BLANCO LECHOSO XEIJAYI - M001"
     },
     {
         "id": 36,
@@ -1403,5 +1403,77 @@ export const products = [
         "categoryId": "3",
         "image": "1778294700_69fe9fac95d6c.jpg",
         "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 35000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL"
+    },
+    {
+        "id": 156,
+        "name": "ESMALTE EN GEL BLANCO BASE XEIJAYI - M002",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1778350780_69ff7abccf23d.jpg",
+        "description": "ESMALTE EN GEL XEIJAYI BLANCO BASE XEIJAYI - M002"
+    },
+    {
+        "id": 157,
+        "name": "ESMALTE EN GEL BASE NUDE XEIJAYI - M003",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1778351065_69ff7bd945f75.jpg",
+        "description": "ESMALTE EN GEL BASE NUDE XEIJAYI - M003"
+    },
+    {
+        "id": 158,
+        "name": "ESMALTE EN GEL NUDE BASE XEIJAYI - M007",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1778351222_69ff7c767547e.jpg",
+        "description": "ESMALTE EN GEL XEIJAYI NUDE BASE XEIJAYI - M007"
+    },
+    {
+        "id": 159,
+        "name": "ESMALTE EN GEL BASE PALO ROSA XEIJAYI - M008",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1778351437_69ff7d4dbae6c.jpg",
+        "description": "ESMALTE EN GEL XEIJAYI BASE PALO ROSA XEIJAYI - M008"
+    },
+    {
+        "id": 160,
+        "name": "ESMALTE EN GEL BASE PALO ROSA XEIJAYI - M010",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1778351569_69ff7dd16398b.jpg",
+        "description": "ESMALTE EN GEL XEIJAYI BASE PALO ROSA XEIJAYI - M010"
+    },
+    {
+        "id": 161,
+        "name": "ESMALTE EN GEL BASE ROSA PINK XEIJAYI - M014",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1778351696_69ff7e5034d40.jpg",
+        "description": "ESMALTE EN GEL XEIJAYI BASE ROSA PINK XEIJAYI - M014"
+    },
+    {
+        "id": 162,
+        "name": "ESMALTE EN GEL BASE NUDE ROSE XEIJAYI - M015",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1778351930_69ff7f3aa4800.jpg",
+        "description": "ESMALTE EN GEL XEIJAYI BASE ROSA PINK XEIJAYI - M015"
+    },
+    {
+        "id": 163,
+        "name": "ESMALTE EN GEL BASE NUDE ICE XEIJAYI - M017",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1778352062_69ff7fbe26585.jpg",
+        "description": "ESMALTE EN GEL XEIJAYI BASE NUDE ICE XEIJAYI - M017"
     }
 ];
