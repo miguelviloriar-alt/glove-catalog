@@ -1394,5 +1394,14 @@ export const products = [
         "categoryId": "12",
         "image": "1778289154_69fe8a02da4b0.jpg",
         "description": "ESMALTE EN GEL EFECTO OJO DE GATO VERDE MAMBO - M153 - OJO DE GATO VERDE"
+    },
+    {
+        "id": 155,
+        "name": "PULIDORA DE UÑAS PROFESIONAL 35.000 RPM - ROSADA",
+        "brand": "GENERICO",
+        "price": 125,
+        "categoryId": "3",
+        "image": "1778294700_69fe9fac95d6c.jpg",
+        "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 35000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL"
     }
 ];
