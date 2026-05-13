@@ -37,7 +37,7 @@ const categoryIcons = {
   '13': () => <Droplets className="neon-icon" size={32} strokeWidth={1.5} />,
 };
 
-export default function CategoryMenu({ activeCategory, setActiveCategory }) {
+export default function CategoryMenu({ activeCategory, setActiveCategory, startIndex = 0, endIndex = 6, style = {} }) {
   const mainCategories = [
     { id: '2', name: 'ESMALTES GEL' },
     { id: '3', name: 'HERRAMIENTAS' },
@@ -45,14 +45,14 @@ export default function CategoryMenu({ activeCategory, setActiveCategory }) {
     { id: '8', name: 'PINTURA GEL' },
     { id: '10', name: 'POLVO ACRILICO' },
     { id: '13', name: 'PREPARADORES' }
-  ];
+  ].slice(startIndex, endIndex);
 
   return (
     <div className="categories-grid" style={{ 
       display: 'grid', 
       gridTemplateColumns: 'repeat(3, 1fr)', 
       gap: '10px',
-      marginTop: '20px' 
+      ...style
     }}>
       {mainCategories.map((cat) => {
         const Icon = categoryIcons[cat.id];
