@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import CategoryMenu from '../components/CategoryMenu';
 import ProductCard from '../components/ProductCard';
 import FloatingCart from '../components/FloatingCart';
+import BannerSlider from '../components/BannerSlider';
 import { products, categories } from '../data';
 
 export default function Home() {
@@ -81,7 +82,7 @@ export default function Home() {
       className="app-container"
     >
       <Header toggleCart={() => {}} />
-      
+
       <div className="hero-section">
         <h1 className="hero-title">Catálogo</h1>
         <p className="hero-subtitle">
@@ -101,7 +102,24 @@ export default function Home() {
           </div>
         </div>
 
-        <CategoryMenu activeCategory={activeCategory} setActiveCategory={setActiveCategory} />
+        <CategoryMenu 
+          activeCategory={activeCategory} 
+          setActiveCategory={setActiveCategory} 
+          startIndex={0} 
+          endIndex={3} 
+          style={{ marginTop: '24px' }}
+        />
+
+        <div style={{ margin: '24px 0' }}>
+          <BannerSlider />
+        </div>
+
+        <CategoryMenu 
+          activeCategory={activeCategory} 
+          setActiveCategory={setActiveCategory} 
+          startIndex={3} 
+          endIndex={6} 
+        />
 
         <div className="extra-filters" style={{ display: 'flex', gap: '10px', marginTop: '24px' }}>
           <select 
