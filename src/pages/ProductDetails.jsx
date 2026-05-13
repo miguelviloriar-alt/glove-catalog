@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ShoppingBag } from 'lucide-react';
 import { products } from '../data';
@@ -9,7 +10,11 @@ export default function ProductDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
   const { addToCart } = useCart();
-  
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
+
   const product = products.find(p => p.id === parseInt(id));
 
   if (!product) {
