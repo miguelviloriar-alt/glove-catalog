@@ -1,3 +1,5 @@
+import { Palette, Sparkles, Droplets } from 'lucide-react';
+
 // Custom Neon Silhouette Icons
 const NailPolishIcon = () => (
   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="neon-icon">
@@ -30,17 +32,28 @@ const categoryIcons = {
   '2': NailPolishIcon,
   '3': CuticleScissorsIcon,
   '7': BrushIcon,
+  '8': () => <Palette className="neon-icon" size={32} strokeWidth={1.5} />,
+  '10': () => <Sparkles className="neon-icon" size={32} strokeWidth={1.5} />,
+  '13': () => <Droplets className="neon-icon" size={32} strokeWidth={1.5} />,
 };
 
 export default function CategoryMenu({ activeCategory, setActiveCategory }) {
   const mainCategories = [
     { id: '2', name: 'ESMALTES GEL' },
     { id: '3', name: 'HERRAMIENTAS' },
-    { id: '7', name: 'ACCESORIOS' }
+    { id: '7', name: 'ACCESORIOS' },
+    { id: '8', name: 'PINTURA GEL' },
+    { id: '10', name: 'POLVO ACRILICO' },
+    { id: '13', name: 'PREPARADORES' }
   ];
 
   return (
-    <div className="categories-grid" style={{ gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
+    <div className="categories-grid" style={{ 
+      display: 'grid', 
+      gridTemplateColumns: 'repeat(3, 1fr)', 
+      gap: '10px',
+      marginTop: '20px' 
+    }}>
       {mainCategories.map((cat) => {
         const Icon = categoryIcons[cat.id];
         const isActive = activeCategory === cat.id;
@@ -53,7 +66,7 @@ export default function CategoryMenu({ activeCategory, setActiveCategory }) {
             style={{ padding: '15px 5px', height: '110px' }}
           >
             <div className="category-icon-container">
-              <Icon />
+              {Icon && <Icon />}
             </div>
             <span className="category-name" style={{ fontSize: '0.6rem', fontWeight: '700', letterSpacing: '0.5px' }}>
               {cat.name}
