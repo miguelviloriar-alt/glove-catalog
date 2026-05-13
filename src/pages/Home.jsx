@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search } from 'lucide-react';
 import Header from '../components/Header';
@@ -8,9 +8,29 @@ import FloatingCart from '../components/FloatingCart';
 import { products, categories } from '../data';
 
 export default function Home() {
-  const [activeCategory, setActiveCategory] = useState('all');
-  const [activeBrand, setActiveBrand] = useState('all');
-  const [searchQuery, setSearchQuery] = useState('');
+  const [activeCategory, setActiveCategory] = useState(() => sessionStorage.getItem('activeCategory') || 'all');
+  const [activeBrand, setActiveBrand] = useState(() => sessionStorage.getItem('activeBrand') || 'all');
+  const [searchQuery, setSearchQuery] = useState(() => sessionStorage.getItem('searchQuery') || '');
+
+  useEffect(() => {
+    sessionStorage.setItem('activeCategory', activeCategory);
+    sessionStorage.setItem('activeBrand', activeBrand);
+    sessionStorage.setItem('searchQuery', searchQuery);
+  }, [activeCategory, activeBrand, searchQuery]);
+
+  useEffect(() => {
+    const lastProductId = sessionStorage.getItem('lastProductId');
+    if (lastProductId) {
+      setTimeout(() => {
+        const element = document.getElementById(`product-${lastProductId}`);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          // We don't remove it immediately to allow for a few seconds if they go back again
+          setTimeout(() => sessionStorage.removeItem('lastProductId'), 3000);
+        }
+      }, 600);
+    }
+  }, []);
 
   const brands = useMemo(() => {
     const uniqueBrands = [...new Set(products.map(p => p.brand).filter(Boolean))];
@@ -91,13 +111,9 @@ export default function Home() {
             style={{ flex: 1 }}
           >
             <option value="all">Todas las Categorías</option>
-            <option value="2">ESMALTES GEL</option>
-            <option value="3">HERRAMIENTAS</option>
-            <option value="7">ACCESORIOS</option>
-            <option value="4">LAMPARAS UV</option>
-            <option value="6">PINCELES</option>
-            <option value="11">GEL</option>
-            <option value="12">OJO DE GATO</option>
+            {categories.filter(cat => cat.id !== 'all').map(cat => (
+              <option key={cat.id} value={cat.id}>{cat.name}</option>
+            ))}
           </select>
 
           <select 
