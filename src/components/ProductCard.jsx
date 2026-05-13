@@ -22,12 +22,16 @@ export default function ProductCard({ product }) {
   return (
     <motion.div
       layout
+      id={`product-${product.id}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.3 }}
       className="product-card"
-      onClick={() => navigate(`/product/${product.id}`)}
+      onClick={() => {
+        sessionStorage.setItem('lastProductId', product.id);
+        navigate(`/product/${product.id}`);
+      }}
       style={{ cursor: 'pointer' }}
     >
       <div className="product-image-container">
