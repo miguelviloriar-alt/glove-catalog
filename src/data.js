@@ -321,7 +321,7 @@ export const products = [
         "name": "PINCELES DE SILICONE X8 COLORES RANDOM",
         "brand": "GLOVE",
         "price": 22,
-        "categoryId": "6",
+        "categoryId": "3",
         "image": "1775532794_69d47afaadf1b.jpg",
         "description": "SET DE 8 PINCELES PARA DECORACIÓN DE UÑAS, BOLÍGRAFOS DE MANICURA VERSÁTILES PARA GEL, DETALLES Y DISEÑOS FLORALES, APLICADORES DE PLÁSTICO DE GRADO PROFESIONAL PARA LA CREACIÓN DE ARTE DE UÑAS.",
         "etiqueta": null
