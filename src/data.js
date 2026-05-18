@@ -1,4 +1,4 @@
-export const bannerTag = "OFERTAS";
+export const bannerTag = "DESTACADOS";
 
 export const categories = [
     {
@@ -1209,7 +1209,7 @@ export const products = [
         "categoryId": "3",
         "image": "1776801714_69e7d7b23a62e.jpg",
         "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL",
-        "etiqueta": "OFERTAS"
+        "etiqueta": "DESTACADOS"
     },
     {
         "id": 110,
@@ -1297,7 +1297,7 @@ export const products = [
         "categoryId": "5",
         "image": "1776806292_69e7e9949977b.jpg",
         "description": "JUEGO DE BOLAS MAGNÉTICAS DE ACERO PARA UÑAS CON MANGO LARGO DE ALUMINIO, DOBLE PUNTA, HERRAMIENTA MAGNÉTICA PARA ESMALTE DE UÑAS GEL, MANICURA Y EFECTO OJO DE GATO",
-        "etiqueta": "OFERTAS"
+        "etiqueta": "DESTACADOS"
     },
     {
         "id": 119,
@@ -1440,7 +1440,7 @@ export const products = [
         "categoryId": "5",
         "image": "1777915649_69f8d701df280.jpg",
         "description": "2 PIEZAS NUEVO ESTILO HUECO FRANCÉS OJO DE GATO DE ALTA BRILLANTEZ ANILLO DE UÑA IMÁN CUADRADO, FÁCIL OPERACIÓN, UNA FORMACIÓN DE COLOCACIÓN, ADECUADO PARA SALONES DE UÑAS Y PRODUCCIÓN ARTESANAL DE ENTUSIASTAS DE LAS UÑAS, HERRAMIENTA AUXILIAR DE UÑAS",
-        "etiqueta": "OFERTAS"
+        "etiqueta": "DESTACADOS"
     },
     {
         "id": 132,
@@ -1660,7 +1660,7 @@ export const products = [
         "categoryId": "3",
         "image": "1778288587_69fe87cbc0032.jpg",
         "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL",
-        "etiqueta": "OFERTAS"
+        "etiqueta": "DESTACADOS"
     },
     {
         "id": 152,
@@ -1704,7 +1704,7 @@ export const products = [
         "categoryId": "3",
         "image": "1778294700_69fe9fac95d6c.jpg",
         "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 35000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL",
-        "etiqueta": "OFERTAS"
+        "etiqueta": "DESTACADOS"
     },
     {
         "id": 156,
@@ -1803,7 +1803,7 @@ export const products = [
         "categoryId": "12",
         "image": "1778808858_6a06781a5cef7.jpg",
         "description": "ESMALTE XEIJAYI DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN M202",
-        "etiqueta": null
+        "etiqueta": "DESTACADOS"
     },
     {
         "id": 166,
