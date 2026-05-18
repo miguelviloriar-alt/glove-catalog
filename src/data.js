@@ -58,6 +58,7 @@ export const categories = [
 export const products = [
     {
         "id": 1,
+        "sku": "XEI-SETBLUESB",
         "name": "SET DE ESMALTES COLECCION AZUL X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -68,6 +69,7 @@ export const products = [
     },
     {
         "id": 2,
+        "sku": "XEI-SETNUDESA-C",
         "name": "SET DE ESMALTES COLORES BASE - COLECCION NUDES X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -78,6 +80,7 @@ export const products = [
     },
     {
         "id": 4,
+        "sku": "XEI-SETNUDESA-A",
         "name": "SET DE ESMALTES COLORES BASE - COLECCION NUDES X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -88,6 +91,7 @@ export const products = [
     },
     {
         "id": 5,
+        "sku": "XEI-SETNUDESA-B",
         "name": "SET DE ESMALTES COLORES BASE - COLECCION NUDES X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -98,6 +102,7 @@ export const products = [
     },
     {
         "id": 7,
+        "sku": "XEI-SETCAKESB",
         "name": "SET DE ESMALTES COLECCION COLORES PASTEL X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -108,6 +113,7 @@ export const products = [
     },
     {
         "id": 8,
+        "sku": "XEI-SETCEGLACIALW",
         "name": "SET DE ESMALTES GEL EFECTO OJO DE GATO COLECCION GLACIAL WATER",
         "brand": "XEIJAYI",
         "price": 75,
@@ -118,6 +124,7 @@ export const products = [
     },
     {
         "id": 9,
+        "sku": "XEI-SETCEGOLDEN",
         "name": "SET DE ESMALTES GEL EFECTO OJO DE GATO COLECCION GOLDEN",
         "brand": "XEIJAYI",
         "price": 75,
@@ -128,6 +135,7 @@ export const products = [
     },
     {
         "id": 10,
+        "sku": "XEI-SETREDSUITE",
         "name": "SET DE ESMALTES GEL ROJOS COLECCION X4 RED SUITE",
         "brand": "XEIJAYI",
         "price": 48,
@@ -138,6 +146,7 @@ export const products = [
     },
     {
         "id": 11,
+        "sku": "XEI-SETBRWN-MT",
         "name": "SET DE ESMALTES MARRON CASTAÑO COLECCION CHESTNUT BROWN X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -148,6 +157,7 @@ export const products = [
     },
     {
         "id": 12,
+        "sku": "GLOV-LAMPUV-BLACK",
         "name": "LAMPARA UV PRO TIPO LINTERNA - NEGRA",
         "brand": "GENERICO",
         "price": 18,
@@ -158,6 +168,7 @@ export const products = [
     },
     {
         "id": 13,
+        "sku": "XEI-SETCEGEMAS",
         "name": "SET DE ESMALTES EFECTO OJO DE GATO COLECCION GEMAS X6",
         "brand": "XEIJAYI",
         "price": 75,
@@ -168,6 +179,7 @@ export const products = [
     },
     {
         "id": 14,
+        "sku": "XEI-SETPRIMAVERA",
         "name": "SET DE ESMALTES COLORES PASTEL COLECCION PRIMAVERA X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -178,6 +190,7 @@ export const products = [
     },
     {
         "id": 15,
+        "sku": "GLOV-PINSILCN-GREPINK",
         "name": "PINCELES DE SILICONE X2 VERDE Y ROSADO",
         "brand": "GLOVE",
         "price": 16,
@@ -188,6 +201,7 @@ export const products = [
     },
     {
         "id": 16,
+        "sku": "GLOV-IMANESFR",
         "name": "IMAN PARA EFECTO OJO DE GATO DOBLE PUNTA CON ESFERA SILVER",
         "brand": "GLOVE",
         "price": 18,
@@ -198,6 +212,7 @@ export const products = [
     },
     {
         "id": 17,
+        "sku": "XEI-CEBLACKBRRY",
         "name": "ESMALTE EN GEL CON EFECTO OJO DE GATO COLOR ROJO PROFUNDO BLACKBERRY",
         "brand": "XEIJAYI",
         "price": 18,
@@ -208,6 +223,7 @@ export const products = [
     },
     {
         "id": 18,
+        "sku": "XEI-TPCTCLEAR100ML",
         "name": "XEIJAYI TOP COAT GLASS CLEAR - PRESENTACION 100 ML",
         "brand": "XEIJAYI",
         "price": 50,
@@ -218,6 +234,7 @@ export const products = [
     },
     {
         "id": 19,
+        "sku": "XEI-BUILDERG100ML",
         "name": "XEIJAYI BUILDER GEL - PRESENTACION 100 ML",
         "brand": "XEIJAYI",
         "price": 50,
@@ -228,6 +245,7 @@ export const products = [
     },
     {
         "id": 20,
+        "sku": "XEI-CERUBIRED",
         "name": "ESMALTE EN GEL OJO DE GATO ROJO RUBI",
         "brand": "XEIJAYI",
         "price": 18,
@@ -238,6 +256,7 @@ export const products = [
     },
     {
         "id": 21,
+        "sku": "XEI-SETBROWNSB",
         "name": "SET DE ESMALTES COLECCION MARRONES X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -248,6 +267,7 @@ export const products = [
     },
     {
         "id": 22,
+        "sku": "XEI-CEGLDNPEARL",
         "name": "ESMALTE GEL OJO DE GATO GOLDEN PEARL",
         "brand": "XEIJAYI",
         "price": 18,
@@ -258,6 +278,7 @@ export const products = [
     },
     {
         "id": 23,
+        "sku": "XEI-CEWHTMOONLGHT",
         "name": "ESMALTE GEL OJO DE GATO LUZ DE LUNA BLANCO",
         "brand": "XEIJAYI",
         "price": 18,
@@ -268,6 +289,7 @@ export const products = [
     },
     {
         "id": 24,
+        "sku": "XEI-CEROCKSUGR01",
         "name": "ESMALTE GEL OJO DE GATO ROCK SUGAR 01",
         "brand": "XEIJAYI",
         "price": 18,
@@ -278,6 +300,7 @@ export const products = [
     },
     {
         "id": 25,
+        "sku": "XEI-BLACKPEARL",
         "name": "ESMALTE GEL OJO DE GATO NEGRO PERLADO - BLACK PEARL",
         "brand": "XEIJAYI",
         "price": 18,
@@ -288,6 +311,7 @@ export const products = [
     },
     {
         "id": 26,
+        "sku": "XEI-SETGLITTERB",
         "name": "SET DE ESMALTES COLECCION GLITTER X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -298,6 +322,7 @@ export const products = [
     },
     {
         "id": 27,
+        "sku": "XEI-BASERUBBRFIB",
         "name": "XEIJAYI BASE RUBBER FIBER - TRANSPARENTE 15ML",
         "brand": "XEIJAYI",
         "price": 20,
@@ -308,6 +333,7 @@ export const products = [
     },
     {
         "id": 28,
+        "sku": "XEI-SETDOPAMINA",
         "name": "SET ESMALTES GEL OJO DE GATO DOPAMINA",
         "brand": "XEIJAYI",
         "price": 75,
@@ -318,6 +344,7 @@ export const products = [
     },
     {
         "id": 29,
+        "sku": "GLOV-PINSILCN-8PCSRAN",
         "name": "PINCELES DE SILICONE X8 COLORES RANDOM",
         "brand": "GLOVE",
         "price": 22,
@@ -328,6 +355,7 @@ export const products = [
     },
     {
         "id": 30,
+        "sku": "XEI-CEREDWINE",
         "name": "ESMALTE GEL OJO DE GATO RED WINE",
         "brand": "XEIJAYI",
         "price": 18,
@@ -338,6 +366,7 @@ export const products = [
     },
     {
         "id": 31,
+        "sku": "XEI-CEDARKPLUM",
         "name": "ESMALTE GEL OJO DE GATO ROJO DARK PLUM",
         "brand": "XEIJAYI",
         "price": 18,
@@ -348,6 +377,7 @@ export const products = [
     },
     {
         "id": 32,
+        "sku": "XEI-CEDARKRED",
         "name": "ESMALTE GEL OJO DE GATO DARK RED",
         "brand": "XEIJAYI",
         "price": 18,
@@ -358,6 +388,7 @@ export const products = [
     },
     {
         "id": 33,
+        "sku": "XEI-CEFIREWORKS",
         "name": "ESMALTE GEL OJO DE GATO ROJO FIRE WORKS",
         "brand": "XEIJAYI",
         "price": 18,
@@ -368,6 +399,7 @@ export const products = [
     },
     {
         "id": 34,
+        "sku": "XEI-CEPINKSFRAMB",
         "name": "ESMALTE GEL OJO DE GATO ROJO FRAMBUESA",
         "brand": "XEIJAYI",
         "price": 18,
@@ -378,6 +410,7 @@ export const products = [
     },
     {
         "id": 35,
+        "sku": "XEIM001-MILKWHITE",
         "name": "ESMALTE EN GEL BLANCO LECHOSO XEIJAYI - M001",
         "brand": "XEIJAYI",
         "price": 15,
@@ -388,6 +421,7 @@ export const products = [
     },
     {
         "id": 36,
+        "sku": "XEI-VERDENAVID-M032",
         "name": "VERDE NAVIDAD XEIJAYI - M032",
         "brand": "XEIJAYI",
         "price": 15,
@@ -398,6 +432,7 @@ export const products = [
     },
     {
         "id": 37,
+        "sku": "XEI-MARRON-M042",
         "name": "MARRON CHOCOLATE XEIJAYI - M042",
         "brand": "XEIJAYI",
         "price": 15,
@@ -408,6 +443,7 @@ export const products = [
     },
     {
         "id": 38,
+        "sku": "XEI-MARRON-M041",
         "name": "MARRON CHOCOLATE XEIJAYI - M041",
         "brand": "XEIJAYI",
         "price": 15,
@@ -418,6 +454,7 @@ export const products = [
     },
     {
         "id": 40,
+        "sku": "XEI-MARRON-M040",
         "name": "MARRON LATE XEIJAYI - M040",
         "brand": "XEIJAYI",
         "price": 15,
@@ -428,6 +465,7 @@ export const products = [
     },
     {
         "id": 41,
+        "sku": "XEI-MARRON-M039",
         "name": "MARRON CREMA XEIJAYI - M039",
         "brand": "XEIJAYI",
         "price": 15,
@@ -438,6 +476,7 @@ export const products = [
     },
     {
         "id": 42,
+        "sku": "XEI-MARRON-M043",
         "name": "XEIJAYI MARRON VINTAGE - M043",
         "brand": "XEIJAYI",
         "price": 15,
@@ -448,6 +487,7 @@ export const products = [
     },
     {
         "id": 43,
+        "sku": "XEI-MARRONMILK-M038",
         "name": "XEIJAYI MARRON LECHE - M038",
         "brand": "XEIJAYI",
         "price": 15,
@@ -458,6 +498,7 @@ export const products = [
     },
     {
         "id": 44,
+        "sku": "XEI-CELESTEBABY-M037",
         "name": "XEIJAYI CELESTE BEBE - BLUE BABY - M037",
         "brand": "XEIJAYI",
         "price": 15,
@@ -468,6 +509,7 @@ export const products = [
     },
     {
         "id": 45,
+        "sku": "XEI-PEACOCKBLUE-M036",
         "name": "XEIJAYI AZUL ELECTRICO - PEACOCK BLUE - M036",
         "brand": "XEIJAYI",
         "price": 15,
@@ -478,6 +520,7 @@ export const products = [
     },
     {
         "id": 46,
+        "sku": "XEI-CYANBLUE-M035",
         "name": "XEIJAYI AZUL CYAN - M035",
         "brand": "XEIJAYI",
         "price": 15,
@@ -488,6 +531,7 @@ export const products = [
     },
     {
         "id": 47,
+        "sku": "XEI-CELESTE-M034",
         "name": "XEIJAYI CELESTE MENTA - M034",
         "brand": "XEIJAYI",
         "price": 15,
@@ -498,6 +542,7 @@ export const products = [
     },
     {
         "id": 48,
+        "sku": "XEI-TURQUESA-M033",
         "name": "XEIJAYI TURQUESA AZULADO - M033",
         "brand": "XEIJAYI",
         "price": 15,
@@ -508,6 +553,7 @@ export const products = [
     },
     {
         "id": 49,
+        "sku": "XEI-DARKGREEN-M031",
         "name": "XEIJAYI VERDE OSCURO - M031",
         "brand": "XEIJAYI",
         "price": 15,
@@ -518,6 +564,7 @@ export const products = [
     },
     {
         "id": 50,
+        "sku": "XEI-OLIVEGREEN-M030",
         "name": "XEIJAYI VERDE OLIVA - M030",
         "brand": "XEIJAYI",
         "price": 15,
@@ -528,6 +575,7 @@ export const products = [
     },
     {
         "id": 51,
+        "sku": "XEI-VERDEMINT-M029",
         "name": "XEIJAYI VERDE MENTA - M029",
         "brand": "XEIJAYI",
         "price": 15,
@@ -538,6 +586,7 @@ export const products = [
     },
     {
         "id": 52,
+        "sku": "XEI-OLIVEFOREST-M028",
         "name": "XEIJAYI VERDE OLIVA BOSQUE - M028",
         "brand": "XEIJAYI",
         "price": 15,
@@ -548,6 +597,7 @@ export const products = [
     },
     {
         "id": 53,
+        "sku": "XEIM027-VERDELATE",
         "name": "XEIJAYI VERDE LATE - M027",
         "brand": "XEIJAYI",
         "price": 15,
@@ -558,6 +608,7 @@ export const products = [
     },
     {
         "id": 54,
+        "sku": "XEIM026-YELLOWGALANT",
         "name": "XEIJAYI AMARILLO ELEGANTE - M026",
         "brand": "XEIJAYI",
         "price": 15,
@@ -568,6 +619,7 @@ export const products = [
     },
     {
         "id": 55,
+        "sku": "XEIM025-MATCHGREEN",
         "name": "XEIJAYI VERDE CREMOSO - M025",
         "brand": "XEIJAYI",
         "price": 15,
@@ -578,6 +630,7 @@ export const products = [
     },
     {
         "id": 56,
+        "sku": "XEI-ELEGANTBROWN-M044",
         "name": "XEIJAYI MARRON ELEGANTE - M044",
         "brand": "XEIJAYI",
         "price": 15,
@@ -588,6 +641,7 @@ export const products = [
     },
     {
         "id": 57,
+        "sku": "XEI-GREYLIGTH-M045",
         "name": "XEIJAYI GRIS CLARO - M045",
         "brand": "XEIJAYI",
         "price": 15,
@@ -598,6 +652,7 @@ export const products = [
     },
     {
         "id": 58,
+        "sku": "XEI-GREYQUARTZ-M047",
         "name": "XEIJAYI GRIS CUARZO - M047",
         "brand": "XEIJAYI",
         "price": 15,
@@ -608,6 +663,7 @@ export const products = [
     },
     {
         "id": 59,
+        "sku": "XEI-GREYMILKTEA-M048",
         "name": "XEIJAYI GRIS - M048",
         "brand": "XEIJAYI",
         "price": 15,
@@ -618,6 +674,7 @@ export const products = [
     },
     {
         "id": 60,
+        "sku": "XEI-BLACKPURE-M050",
         "name": "XEIJAYI NEGRO - M050",
         "brand": "XEIJAYI",
         "price": 15,
@@ -628,6 +685,7 @@ export const products = [
     },
     {
         "id": 61,
+        "sku": "XEI-WHITEPURE-M061",
         "name": "XEIJAYI BLANCO - M061",
         "brand": "XEIJAYI",
         "price": 15,
@@ -638,6 +696,7 @@ export const products = [
     },
     {
         "id": 62,
+        "sku": "XEI-BONEWHITE-M062",
         "name": "XEIJAYI BLANCO HUESO - M062",
         "brand": "XEIJAYI",
         "price": 15,
@@ -648,6 +707,7 @@ export const products = [
     },
     {
         "id": 63,
+        "sku": "XEI-VAINILLA-M063",
         "name": "XEIJAYI VAINILLA - M063",
         "brand": "XEIJAYI",
         "price": 15,
@@ -658,6 +718,7 @@ export const products = [
     },
     {
         "id": 64,
+        "sku": "XEI-YELLOW-M064",
         "name": "XEIJAYI AMARILLO - M064",
         "brand": "XEIJAYI",
         "price": 15,
@@ -668,6 +729,7 @@ export const products = [
     },
     {
         "id": 65,
+        "sku": "XEI-YELLOWLITGH-M065",
         "name": "XEIJAYI AMARILLO CLARO - M065",
         "brand": "XEIJAYI",
         "price": 15,
@@ -678,6 +740,7 @@ export const products = [
     },
     {
         "id": 66,
+        "sku": "XEI-YELLOWORANGE-M066",
         "name": "XEIJAYI AMARILLO CITRICO - M066",
         "brand": "XEIJAYI",
         "price": 15,
@@ -688,6 +751,7 @@ export const products = [
     },
     {
         "id": 67,
+        "sku": "XEI-BROWNDELICACY-MO69",
         "name": "XEIJAYI MARRON DELICACY - M069",
         "brand": "XEIJAYI",
         "price": 15,
@@ -698,6 +762,7 @@ export const products = [
     },
     {
         "id": 68,
+        "sku": "XEI-MILKBEIGE-M070",
         "name": "XEIJAYI MARRON MILKSHAKE - M070",
         "brand": "XEIJAYI",
         "price": 15,
@@ -708,6 +773,7 @@ export const products = [
     },
     {
         "id": 69,
+        "sku": "XEI-PINKSUGAR-M072",
         "name": "XEIJAYI ROSADO SUGAR - M072",
         "brand": "XEIJAYI",
         "price": 15,
@@ -718,6 +784,7 @@ export const products = [
     },
     {
         "id": 70,
+        "sku": "XEI-ORANGE-M074",
         "name": "XEIJAYI NARANJA - M074",
         "brand": "XEIJAYI",
         "price": 15,
@@ -728,6 +795,7 @@ export const products = [
     },
     {
         "id": 71,
+        "sku": "XEI-TERRACOTA-M075",
         "name": "XEIJAYI TERRACOTA - M075",
         "brand": "XEIJAYI",
         "price": 15,
@@ -738,6 +806,7 @@ export const products = [
     },
     {
         "id": 72,
+        "sku": "XEI-CAPUCCINO-M076",
         "name": "XEIJAYI MARRON CAPUCCINO - M076",
         "brand": "XEIJAYI",
         "price": 15,
@@ -748,6 +817,7 @@ export const products = [
     },
     {
         "id": 73,
+        "sku": "XEI-BURDEOSRED-M077",
         "name": "XEIJAYI ROJO BURDEOS- M077",
         "brand": "XEIJAYI",
         "price": 15,
@@ -758,6 +828,7 @@ export const products = [
     },
     {
         "id": 74,
+        "sku": "XEI-REDTILE-M078",
         "name": "XEIJAYI ROJO TEJA - M078",
         "brand": "XEIJAYI",
         "price": 15,
@@ -768,6 +839,7 @@ export const products = [
     },
     {
         "id": 75,
+        "sku": "XEI-REDSINGULAR-M080",
         "name": "XEIJAYI ROJO - M080",
         "brand": "XEIJAYI",
         "price": 15,
@@ -778,6 +850,7 @@ export const products = [
     },
     {
         "id": 76,
+        "sku": "XEI-REDCAPSICUM-M081",
         "name": "XEIJAYI ROJO PIMIENTO - M081",
         "brand": "XEIJAYI",
         "price": 15,
@@ -788,6 +861,7 @@ export const products = [
     },
     {
         "id": 77,
+        "sku": "XEI-DEEPRED-M082",
         "name": "XEIJAYI ROJO PROFUNDO - M082",
         "brand": "XEIJAYI",
         "price": 15,
@@ -798,6 +872,7 @@ export const products = [
     },
     {
         "id": 78,
+        "sku": "XEI-REDCHERRY-M083",
         "name": "XEIJAYI ROJO CEREZA - M083",
         "brand": "XEIJAYI",
         "price": 15,
@@ -808,6 +883,7 @@ export const products = [
     },
     {
         "id": 79,
+        "sku": "XEI-REDPLUM-M084",
         "name": "XEIJAYI VINO ROJO CIRUELA - M084",
         "brand": "XEIJAYI",
         "price": 15,
@@ -818,6 +894,7 @@ export const products = [
     },
     {
         "id": 80,
+        "sku": "XEI-MALVAPINK-M086",
         "name": "XEIJAYI ROSADO MALVA - M086",
         "brand": "XEIJAYI",
         "price": 15,
@@ -828,6 +905,7 @@ export const products = [
     },
     {
         "id": 81,
+        "sku": "XEI-PURPLECREAM-M088",
         "name": "XEIJAYI LILA CREAM - M088",
         "brand": "XEIJAYI",
         "price": 15,
@@ -838,6 +916,7 @@ export const products = [
     },
     {
         "id": 82,
+        "sku": "XEI-PURPLELIGTH-M089",
         "name": "XEIJAYI PURPURA CENIZA - M089",
         "brand": "XEIJAYI",
         "price": 15,
@@ -848,6 +927,7 @@ export const products = [
     },
     {
         "id": 83,
+        "sku": "XEI-VIOLETDUST-M090",
         "name": "XEIJAYI VIOLETA CENIZO - M090",
         "brand": "XEIJAYI",
         "price": 15,
@@ -858,6 +938,7 @@ export const products = [
     },
     {
         "id": 84,
+        "sku": "XEI-PURPLEDARK-M091",
         "name": "XEIJAYI PURPURA - M091",
         "brand": "XEIJAYI",
         "price": 15,
@@ -868,6 +949,7 @@ export const products = [
     },
     {
         "id": 85,
+        "sku": "XEI-BLUEBERRY-M092",
         "name": "XEIJAYI AZUL ARANDANO - M092",
         "brand": "XEIJAYI",
         "price": 15,
@@ -878,6 +960,7 @@ export const products = [
     },
     {
         "id": 86,
+        "sku": "XEI-VOLCANICBLUE-M093",
         "name": "XEIJAYI AZUL VOLCANICO - M093",
         "brand": "XEIJAYI",
         "price": 15,
@@ -888,6 +971,7 @@ export const products = [
     },
     {
         "id": 87,
+        "sku": "XEI-REALBLUE-M094",
         "name": "XEIJAYI AZUL REAL - M094",
         "brand": "XEIJAYI",
         "price": 15,
@@ -898,6 +982,7 @@ export const products = [
     },
     {
         "id": 88,
+        "sku": "XEI-BLUEDEEP-095",
         "name": "XEIJAYI AZUL PROFUNDO - M095",
         "brand": "XEIJAYI",
         "price": 15,
@@ -908,6 +993,7 @@ export const products = [
     },
     {
         "id": 89,
+        "sku": "XEI-BLUESKY-M096",
         "name": "XEIJAYI AZUL CIELO - M096",
         "brand": "XEIJAYI",
         "price": 15,
@@ -918,6 +1004,7 @@ export const products = [
     },
     {
         "id": 90,
+        "sku": "XEI-TURQUESAVINTAGE-M099",
         "name": "XEIJAYI AZUL TURQUESA CARIBE - M099",
         "brand": "XEIJAYI",
         "price": 15,
@@ -928,6 +1015,7 @@ export const products = [
     },
     {
         "id": 91,
+        "sku": "XEI-BALLETPINK-M109",
         "name": "XEIJAYI ROSADO BALLET - M109",
         "brand": "XEIJAYI",
         "price": 15,
@@ -938,6 +1026,7 @@ export const products = [
     },
     {
         "id": 92,
+        "sku": "XEI-JELLYRED-M112",
         "name": "XEIJAYI JELLY ROJO SHEER NUDE - M112",
         "brand": "XEIJAYI",
         "price": 16,
@@ -948,6 +1037,7 @@ export const products = [
     },
     {
         "id": 93,
+        "sku": "XEI-CHEESEYELLOW-M119",
         "name": "XEIJAYI AMARILLO PALIDO CHEESE YELLOW - M119",
         "brand": "XEIJAYI",
         "price": 15,
@@ -958,6 +1048,7 @@ export const products = [
     },
     {
         "id": 94,
+        "sku": "XEI-MACARONPINK-M121",
         "name": "XEIJAYI ROSADO PASTEL - M121",
         "brand": "XEIJAYI",
         "price": 15,
@@ -968,6 +1059,7 @@ export const products = [
     },
     {
         "id": 95,
+        "sku": "XEI-YELLOWSUN-M178",
         "name": "XEIJAYI AMARILLO SOLAR - M178",
         "brand": "XEIJAYI",
         "price": 15,
@@ -978,6 +1070,7 @@ export const products = [
     },
     {
         "id": 96,
+        "sku": "LAM-TRASNFLOWERSBN-001",
         "name": "LAMINA DE TRANSFERENCIA PARA UÑAS CON DISEÑO DE ENCAJE FLORAL EN BLANCO Y NEGRO",
         "brand": "GLOVE",
         "price": 14,
@@ -988,6 +1081,7 @@ export const products = [
     },
     {
         "id": 97,
+        "sku": "BRTAVIZVY-GELPAINT-01",
         "name": "GEL DE PINTURA DE 9 COLORES BRTAVIZVY -01",
         "brand": "BRTAVIZVY",
         "price": 32,
@@ -998,6 +1092,7 @@ export const products = [
     },
     {
         "id": 98,
+        "sku": "BRTAVIZVY-GELPAINT-02",
         "name": "GEL DE PINTURA DE 9 COLORES BRTAVIZVY - 02",
         "brand": "BRTAVIZVY",
         "price": 32,
@@ -1008,6 +1103,7 @@ export const products = [
     },
     {
         "id": 99,
+        "sku": "JILLRADIA-GELPAINT-01",
         "name": "GEL DE PINTURA DE 9 COLORES JILLRADIA - 01",
         "brand": "JILLRADIA",
         "price": 32,
@@ -1018,6 +1114,7 @@ export const products = [
     },
     {
         "id": 100,
+        "sku": "TIPS-MISSCHDMND3D",
         "name": "TIPS SOFTGEL MISSCHEERING 120 PCS 3D ALMOND - 03",
         "brand": "MISSCHEERING",
         "price": 28,
@@ -1028,6 +1125,7 @@ export const products = [
     },
     {
         "id": 101,
+        "sku": "JILLRADIA-GELPAINT-PINK",
         "name": "GEL DE PINTURA DE 9 COLORES ROSADOS JILLRADIA - PINK",
         "brand": "JILLRADIA",
         "price": 32,
@@ -1038,6 +1136,7 @@ export const products = [
     },
     {
         "id": 102,
+        "sku": "MORDDA-GELPAINT-12",
         "name": "GEL DE PINTURA DE 12 COLORES VARIOS - MORDDA",
         "brand": "MORDDA",
         "price": 38,
@@ -1048,6 +1147,7 @@ export const products = [
     },
     {
         "id": 103,
+        "sku": "JILLRADIA-GELPAINT-CATEYESP",
         "name": "GEL DE PINTURA DE 9 COLORES OJO DE GATO JILLRADIA - PURPLE",
         "brand": "JILLRADIA",
         "price": 32,
@@ -1058,6 +1158,7 @@ export const products = [
     },
     {
         "id": 104,
+        "sku": "JILLRADIA-GELPAINT-BROWNS",
         "name": "GEL DE PINTURA DE 9 COLORES MARRONES JILLRADIA - BROWNS",
         "brand": "JILLRADIA",
         "price": 32,
@@ -1068,6 +1169,7 @@ export const products = [
     },
     {
         "id": 105,
+        "sku": "XEI-SETBUBBLESWEET",
         "name": "SET ESMALTES GEL OJO DE GATO BUBBLE SWEET SUMMER",
         "brand": "XEIJAYI",
         "price": 75,
@@ -1078,6 +1180,7 @@ export const products = [
     },
     {
         "id": 107,
+        "sku": "XEI-SETPINKSB",
         "name": "SET DE ESMALTES COLECCION ROSADOS X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -1088,6 +1191,7 @@ export const products = [
     },
     {
         "id": 108,
+        "sku": "XEI-SETJELLYAMBER",
         "name": "SET DE ESMALTES COLORES JELLYS COLECCION JELLY AMBER X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -1098,6 +1202,7 @@ export const products = [
     },
     {
         "id": 109,
+        "sku": "HER-DRILL45KRPMPRO-ROS",
         "name": "PULIDORA DE UÑAS PROFESIONAL 45.000 RPM - ROSA",
         "brand": "GENERICO",
         "price": 145,
@@ -1108,6 +1213,7 @@ export const products = [
     },
     {
         "id": 110,
+        "sku": "ACC-CUADRIPERLAS-12",
         "name": "PERLAS BLANCAS SEMICIRCULAR DE 12 CUADRÍCULAS - CAJA 6 TAMAÑOS",
         "brand": "GENERICO",
         "price": 12,
@@ -1118,6 +1224,7 @@ export const products = [
     },
     {
         "id": 111,
+        "sku": "ACR-WMFL1-01",
         "name": "POLVO ACRÍLICO TRANSPARENTE NOCIS - PROFESIONAL PARA UÑAS - 60 G - 2 ONZ",
         "brand": "NOCIS",
         "price": 24,
@@ -1128,6 +1235,7 @@ export const products = [
     },
     {
         "id": 112,
+        "sku": "ACR-WMFL1-02",
         "name": "POLVO ACRÍLICO BLANCO NOCIS - PROFESIONAL PARA UÑAS - 60 G - 2 ONZ",
         "brand": "NOCIS",
         "price": 24,
@@ -1138,6 +1246,7 @@ export const products = [
     },
     {
         "id": 113,
+        "sku": "XEI-BLOOMINGEL-01",
         "name": "BLOOMING GEL EFECTO - XEIJAYI 15 ML",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1148,6 +1257,7 @@ export const products = [
     },
     {
         "id": 114,
+        "sku": "XEI-CELUXCOFF-03",
         "name": "ESMALTE GEL OJO DE GATO MARRON CAFE LUXURY - 03",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1158,6 +1268,7 @@ export const products = [
     },
     {
         "id": 116,
+        "sku": "XEI-CEDOPAMINE-06",
         "name": "ESMALTE GEL OJO DE GATO AZUL DOPAMINA - 06",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1168,6 +1279,7 @@ export const products = [
     },
     {
         "id": 117,
+        "sku": "XEI-DREAMYSTAR-03",
         "name": "ESMALTE GEL OJO DE GATO AMARILLO DREAM STAR - 03",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1178,6 +1290,7 @@ export const products = [
     },
     {
         "id": 118,
+        "sku": "GLOV-IMANESFR-02",
         "name": "IMAN PARA EFECTO OJO DE GATO DOBLE PUNTA CON ESFERA GOLD ROSE",
         "brand": "GLOVE",
         "price": 18,
@@ -1188,6 +1301,7 @@ export const products = [
     },
     {
         "id": 119,
+        "sku": "XEI-LUXCOFFEE-02",
         "name": "ESMALTE GEL OJO DE GATO MARRON CAFE LUXURY - 02",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1198,6 +1312,7 @@ export const products = [
     },
     {
         "id": 120,
+        "sku": "XEI-CEBLUEKLEIN-M204",
         "name": "ESMALTE GEL OJO DE GATO AZUL KLEIN - M204",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1208,6 +1323,7 @@ export const products = [
     },
     {
         "id": 121,
+        "sku": "XEI-CEPURPLE-09",
         "name": "ESMALTE GEL OJO DE GATO PURPURA - 09",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1218,6 +1334,7 @@ export const products = [
     },
     {
         "id": 122,
+        "sku": "XEI-SETGREENB",
         "name": "SET DE ESMALTES COLECCION VERDES X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -1228,6 +1345,7 @@ export const products = [
     },
     {
         "id": 123,
+        "sku": "HER-SPJ002-BRILLANTE",
         "name": "TIJERAS PARA CUTÍCULAS",
         "brand": "GENERICO",
         "price": 12,
@@ -1238,6 +1356,7 @@ export const products = [
     },
     {
         "id": 124,
+        "sku": "GLOV-IMANESFRCIL-03",
         "name": "SET DE 2 IMANES MAGNÉTICOS PARA UÑAS (REDONDOS Y CILÍNDRICOS)",
         "brand": "GLOVE",
         "price": 8,
@@ -1248,6 +1367,7 @@ export const products = [
     },
     {
         "id": 125,
+        "sku": "BRO-TUGS5N1-A",
         "name": "BROCA ACERO DE TUNGSTENO PROFESIONAL 5 EN 1",
         "brand": "GENERICO",
         "price": 14,
@@ -1258,6 +1378,7 @@ export const products = [
     },
     {
         "id": 126,
+        "sku": "BP-PREPARADS-02",
         "name": "BORN PRETTY 2 PCS 15 ML KIT DE PREPARACION DE UÑAS -  DESHIDRATADOR-PRIMER",
         "brand": "BORN PRETTY",
         "price": 36,
@@ -1268,6 +1389,7 @@ export const products = [
     },
     {
         "id": 127,
+        "sku": "GEN-LAMPARAUVPINK-DESING",
         "name": "LAMPARA UV DISEÑO TIPO LINTERNA - ROSADA",
         "brand": "GENERICO",
         "price": 20,
@@ -1278,6 +1400,7 @@ export const products = [
     },
     {
         "id": 128,
+        "sku": "XEI-CEBLUEGLACIAL-GS06",
         "name": "ESMALTE GEL OJO DE GATO AZUL GLACIAL - 06",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1288,6 +1411,7 @@ export const products = [
     },
     {
         "id": 129,
+        "sku": "XEI-CEPEACOK-04",
         "name": "ESMALTE GEL OJO DE GATO DUO TONO PAVO REAL - 04",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1298,6 +1422,7 @@ export const products = [
     },
     {
         "id": 130,
+        "sku": "MOCMAKI-GELPAINT-P21",
         "name": "GEL DE PINTURA DE 9 COLORES MARRONES MOCMAKI - SATURADOS",
         "brand": "JILLRADIA",
         "price": 32,
@@ -1308,6 +1433,7 @@ export const products = [
     },
     {
         "id": 131,
+        "sku": "GEN-IMANANILLO2PCS",
         "name": "IMAN 2 PCS ANILLO - ESTILO HUECO FRANCÉS OJO DE GATO",
         "brand": "GENERICO",
         "price": 12,
@@ -1318,6 +1444,7 @@ export const products = [
     },
     {
         "id": 132,
+        "sku": "GEN-ESPONJAS-100PCSCLIP",
         "name": "SET DE 100 ESPONJAS Y CLIPS PARA UÑAS, ESPONJAS DEGRADADAS",
         "brand": "GENERICO",
         "price": 15,
@@ -1328,6 +1455,7 @@ export const products = [
     },
     {
         "id": 133,
+        "sku": "XEI-CEAURORARED-M129",
         "name": "ESMALTE GEL OJO DE GATO ROJO AURORA - M129",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1338,6 +1466,7 @@ export const products = [
     },
     {
         "id": 134,
+        "sku": "XEI-CEBUBLSWETSUM-M186",
         "name": "ESMALTE GEL OJO DE GATO ROSADO BUBBLE SWEET SUMMER - M186",
         "brand": "XEIJAYI",
         "price": 20,
@@ -1348,6 +1477,7 @@ export const products = [
     },
     {
         "id": 135,
+        "sku": "XEI-SOFTGELGLUE-PEGA",
         "name": "PEGAMENTO PARA SOFTGEL XEIJAYI DE 15 ML",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1358,6 +1488,7 @@ export const products = [
     },
     {
         "id": 136,
+        "sku": "GEN-CORTACUTICULA-JAPONES",
         "name": "CORTA CUTICULA COLOR JAPONES DOBLE RESORTE",
         "brand": "GENERICO",
         "price": 18,
@@ -1368,6 +1499,7 @@ export const products = [
     },
     {
         "id": 137,
+        "sku": "XEI-METALSILVER-MT02",
         "name": "ESMALTE EN GEL XEIJAYI METALIZADO PLATEADO - MT02",
         "brand": "XEIJAYI",
         "price": 20,
@@ -1378,6 +1510,7 @@ export const products = [
     },
     {
         "id": 138,
+        "sku": "XEI-SETCELUXURYCOFFEE",
         "name": "SET ESMALTES GEL OJO DE GATO LUXURY COFFEE",
         "brand": "XEIJAYI",
         "price": 75,
@@ -1388,6 +1521,7 @@ export const products = [
     },
     {
         "id": 139,
+        "sku": "GEN-POLVESPEJO-HOLOGRAFIC",
         "name": "POLVO HOLOGRÁFICO DE UNICORNIO ARCOÍRIS",
         "brand": "GENERICO",
         "price": 9,
@@ -1398,6 +1532,7 @@ export const products = [
     },
     {
         "id": 140,
+        "sku": "XEI-TOPCOATCLEAR-15ML",
         "name": "XEIJAYI TOP COAT SUPER GLASS TRANSPARENTE - PRESENTACION 15 ML",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1408,6 +1543,7 @@ export const products = [
     },
     {
         "id": 141,
+        "sku": "XEI-SETREDSB",
         "name": "SET DE ESMALTES COLECCION ROJO X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -1418,6 +1554,7 @@ export const products = [
     },
     {
         "id": 142,
+        "sku": "XEI-SETCESPARKLINGVIVID",
         "name": "SET DE ESMALTES EFECTO OJO DE GATO COLECCION BRILLANTE VIVIDO X6",
         "brand": "XEIJAYI",
         "price": 75,
@@ -1428,6 +1565,7 @@ export const products = [
     },
     {
         "id": 143,
+        "sku": "XEI-CEPINKGRATPEF",
         "name": "ESMALTE GEL OJO DE GATO PINK GRAPEFRUIT",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1438,6 +1576,7 @@ export const products = [
     },
     {
         "id": 144,
+        "sku": "JILLRADIA-GELPAINT-CACAO",
         "name": "GEL DE PINTURA DE 9 COLORES MARRONES JILLRADIA - CACAO CARAMEL",
         "brand": "JILLRADIA",
         "price": 32,
@@ -1448,6 +1587,7 @@ export const products = [
     },
     {
         "id": 145,
+        "sku": "XEI-FIBRUBGEL-100ML",
         "name": "XEIJAYI FIBER GEL BASE RUBBER 100 ML",
         "brand": "XEIJAYI",
         "price": 50,
@@ -1458,6 +1598,7 @@ export const products = [
     },
     {
         "id": 146,
+        "sku": "XEI-SETROJOSA-X6",
         "name": "SET DE ESMALTES COLORES ROJOS COLECCION PASION X6",
         "brand": "XEIJAYI",
         "price": 65,
@@ -1468,6 +1609,7 @@ export const products = [
     },
     {
         "id": 147,
+        "sku": "XEI-CELUCKYYELLOW",
         "name": "ESMALTE GEL OJO DE GATO AMARILLO DE LA SUERTE",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1478,6 +1620,7 @@ export const products = [
     },
     {
         "id": 148,
+        "sku": "XEI-CELUXCOFF-05",
         "name": "ESMALTE GEL OJO DE GATO MARRON CAFE LUXURY - 03",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1488,6 +1631,7 @@ export const products = [
     },
     {
         "id": 149,
+        "sku": "XEI-CEROMANTICTIME-16",
         "name": "ESMALTE GEL OJO DE GATO DORADO ROMANCE 16",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1498,6 +1642,7 @@ export const products = [
     },
     {
         "id": 150,
+        "sku": "XEI-CEGOLDEN03",
         "name": "ESMALTE EN GEL OJO DE GATO DORADO GOLDEN 03",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1508,6 +1653,7 @@ export const products = [
     },
     {
         "id": 151,
+        "sku": "HER-DRILL45KRPMPRO-BLA",
         "name": "PULIDORA DE UÑAS PROFESIONAL 45.000 RPM - BLANCO",
         "brand": "GENERICO",
         "price": 145,
@@ -1518,6 +1664,7 @@ export const products = [
     },
     {
         "id": 152,
+        "sku": "XEI-CESMOKESCREEN-M214",
         "name": "ESMALTE EN GEL OJO DE GATO CORTINA DE HUMO - M214",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1528,6 +1675,7 @@ export const products = [
     },
     {
         "id": 153,
+        "sku": "XEI-BROWNBLUE-M161",
         "name": "ESMALTE GEL OJO DE GATO MARRON AZUL - M161",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1538,6 +1686,7 @@ export const products = [
     },
     {
         "id": 154,
+        "sku": "XEI-CEMAMBOMINT-M153",
         "name": "ESMALTE GEL OJO DE GATO MAMBO MENTA - M153",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1548,6 +1697,7 @@ export const products = [
     },
     {
         "id": 155,
+        "sku": "HER-DRILL35KRPMMED-ROS",
         "name": "PULIDORA DE UÑAS PROFESIONAL 35.000 RPM - ROSADA",
         "brand": "GENERICO",
         "price": 125,
@@ -1558,6 +1708,7 @@ export const products = [
     },
     {
         "id": 156,
+        "sku": "XEIM002-BASEWHITE",
         "name": "ESMALTE EN GEL BLANCO BASE XEIJAYI - M002",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1568,6 +1719,7 @@ export const products = [
     },
     {
         "id": 157,
+        "sku": "XEIM003-BASENUDE",
         "name": "ESMALTE EN GEL BASE NUDE XEIJAYI - M003",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1578,6 +1730,7 @@ export const products = [
     },
     {
         "id": 158,
+        "sku": "XEIM007-BASENUDE",
         "name": "ESMALTE EN GEL NUDE BASE XEIJAYI - M007",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1588,6 +1741,7 @@ export const products = [
     },
     {
         "id": 159,
+        "sku": "XEIM008-ROSEPALEPINK",
         "name": "ESMALTE EN GEL BASE PALO ROSA XEIJAYI - M008",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1598,6 +1752,7 @@ export const products = [
     },
     {
         "id": 160,
+        "sku": "XEIM010-ROSEPALEPINK",
         "name": "ESMALTE EN GEL BASE PALO ROSA XEIJAYI - M010",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1608,6 +1763,7 @@ export const products = [
     },
     {
         "id": 161,
+        "sku": "XEIM014-ROSEPINK",
         "name": "ESMALTE EN GEL BASE ROSA PINK XEIJAYI - M014",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1618,6 +1774,7 @@ export const products = [
     },
     {
         "id": 162,
+        "sku": "XEIM015-NUDEROSE",
         "name": "ESMALTE EN GEL BASE NUDE ROSE XEIJAYI - M015",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1628,6 +1785,7 @@ export const products = [
     },
     {
         "id": 163,
+        "sku": "XEIM017-NUDEICE",
         "name": "ESMALTE EN GEL BASE NUDE ICE XEIJAYI - M017",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1638,6 +1796,7 @@ export const products = [
     },
     {
         "id": 164,
+        "sku": "XEI-CEGREEN-M202",
         "name": "ESMALTE GEL OJO DE GATO VERDE GEMA - M202",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1648,6 +1807,7 @@ export const products = [
     },
     {
         "id": 166,
+        "sku": "XEI-CEGREEN-BAMBU2",
         "name": "ESMALTE GEL OJO DE GATO VERDE BAMBU 02",
         "brand": "XEIJAYI",
         "price": 18,
@@ -1658,6 +1818,7 @@ export const products = [
     },
     {
         "id": 167,
+        "sku": "XEIM006-BASENUDE",
         "name": "ESMALTE EN GEL NUDE BASE XEIJAYI - M006",
         "brand": "XEIJAYI",
         "price": 15,
@@ -1668,6 +1829,7 @@ export const products = [
     },
     {
         "id": 169,
+        "sku": "XEIM005-BASENUDE",
         "name": "ESMALTE EN GEL NUDE BASE XEIJAYI - M005",
         "brand": "XEIJAYI",
         "price": 15,
