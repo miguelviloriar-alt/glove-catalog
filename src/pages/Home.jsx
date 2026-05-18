@@ -114,13 +114,6 @@ export default function Home() {
           <BannerSlider />
         </div>
 
-        <CategoryMenu 
-          activeCategory={activeCategory} 
-          setActiveCategory={setActiveCategory} 
-          startIndex={3} 
-          endIndex={6} 
-        />
-
         <div className="extra-filters" style={{ display: 'flex', gap: '10px', marginTop: '24px' }}>
           <select 
             className="category-select-glass"
