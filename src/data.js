@@ -1635,5 +1635,45 @@ export const products = [
         "image": "1778352062_69ff7fbe26585.jpg",
         "description": "ESMALTE EN GEL XEIJAYI BASE NUDE ICE XEIJAYI - M017",
         "etiqueta": null
+    },
+    {
+        "id": 164,
+        "name": "ESMALTE GEL OJO DE GATO VERDE GEMA - M202",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778808858_6a06781a5cef7.jpg",
+        "description": "ESMALTE XEIJAYI DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN M202",
+        "etiqueta": null
+    },
+    {
+        "id": 166,
+        "name": "ESMALTE GEL OJO DE GATO VERDE BAMBU 02",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1778809057_6a0678e1eb6bd.jpg",
+        "description": "ESMALTE XEIJAYI DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN",
+        "etiqueta": null
+    },
+    {
+        "id": 167,
+        "name": "ESMALTE EN GEL NUDE BASE XEIJAYI - M006",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1779133980_6a0b6e1ce74e4.jpg",
+        "description": "ESMALTE EN GEL XEIJAYI NUDE BASE XEIJAYI - M006",
+        "etiqueta": null
+    },
+    {
+        "id": 169,
+        "name": "ESMALTE EN GEL NUDE BASE XEIJAYI - M005",
+        "brand": "XEIJAYI",
+        "price": 15,
+        "categoryId": "2",
+        "image": "1779134525_6a0b703d25fd7.jpg",
+        "description": "ESMALTE EN GEL NUDE BASE XEIJAYI - M005",
+        "etiqueta": null
     }
 ];
