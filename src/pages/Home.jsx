@@ -70,7 +70,10 @@ export default function Home() {
       if (catA !== catB) {
         return catA.localeCompare(catB);
       }
-      return a.name.localeCompare(b.name);
+      
+      const skuA = a.sku || "";
+      const skuB = b.sku || "";
+      return skuA.localeCompare(skuB, undefined, { numeric: true, sensitivity: 'base' });
     });
   }, [activeCategory, activeBrand, searchQuery]);
 
