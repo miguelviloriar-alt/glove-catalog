@@ -421,7 +421,7 @@ export const products = [
     },
     {
         "id": 36,
-        "sku": "XEI-VERDENAVID-M032",
+        "sku": "XEIM032-VERDENAVID-M032",
         "name": "VERDE NAVIDAD XEIJAYI - M032",
         "brand": "XEIJAYI",
         "price": 15,
@@ -432,7 +432,7 @@ export const products = [
     },
     {
         "id": 37,
-        "sku": "XEI-MARRON-M042",
+        "sku": "XEIM042-MARRONOSCURO",
         "name": "MARRON CHOCOLATE XEIJAYI - M042",
         "brand": "XEIJAYI",
         "price": 15,
@@ -443,7 +443,7 @@ export const products = [
     },
     {
         "id": 38,
-        "sku": "XEI-MARRON-M041",
+        "sku": "XEIM041-MARRONLATE",
         "name": "MARRON CHOCOLATE XEIJAYI - M041",
         "brand": "XEIJAYI",
         "price": 15,
@@ -454,7 +454,7 @@ export const products = [
     },
     {
         "id": 40,
-        "sku": "XEI-MARRON-M040",
+        "sku": "XEIM040-MARRONCHOCO",
         "name": "MARRON LATE XEIJAYI - M040",
         "brand": "XEIJAYI",
         "price": 15,
@@ -465,7 +465,7 @@ export const products = [
     },
     {
         "id": 41,
-        "sku": "XEI-MARRON-M039",
+        "sku": "XEIM039-MARRON",
         "name": "MARRON CREMA XEIJAYI - M039",
         "brand": "XEIJAYI",
         "price": 15,
@@ -476,7 +476,7 @@ export const products = [
     },
     {
         "id": 42,
-        "sku": "XEI-MARRON-M043",
+        "sku": "XEIM043-MARRONVINTG",
         "name": "XEIJAYI MARRON VINTAGE - M043",
         "brand": "XEIJAYI",
         "price": 15,
@@ -487,7 +487,7 @@ export const products = [
     },
     {
         "id": 43,
-        "sku": "XEI-MARRONMILK-M038",
+        "sku": "XEIM038-MARRONMILK",
         "name": "XEIJAYI MARRON LECHE - M038",
         "brand": "XEIJAYI",
         "price": 15,
@@ -498,7 +498,7 @@ export const products = [
     },
     {
         "id": 44,
-        "sku": "XEI-CELESTEBABY-M037",
+        "sku": "XEIM037-CELESTEBABY",
         "name": "XEIJAYI CELESTE BEBE - BLUE BABY - M037",
         "brand": "XEIJAYI",
         "price": 15,
@@ -509,7 +509,7 @@ export const products = [
     },
     {
         "id": 45,
-        "sku": "XEI-PEACOCKBLUE-M036",
+        "sku": "XEIM036-PEACOCKBLUE",
         "name": "XEIJAYI AZUL ELECTRICO - PEACOCK BLUE - M036",
         "brand": "XEIJAYI",
         "price": 15,
@@ -520,7 +520,7 @@ export const products = [
     },
     {
         "id": 46,
-        "sku": "XEI-CYANBLUE-M035",
+        "sku": "XEIM035-ZAFIROBLUE",
         "name": "XEIJAYI AZUL CYAN - M035",
         "brand": "XEIJAYI",
         "price": 15,
@@ -531,7 +531,7 @@ export const products = [
     },
     {
         "id": 47,
-        "sku": "XEI-CELESTE-M034",
+        "sku": "XEIM034-CELESTE",
         "name": "XEIJAYI CELESTE MENTA - M034",
         "brand": "XEIJAYI",
         "price": 15,
@@ -542,7 +542,7 @@ export const products = [
     },
     {
         "id": 48,
-        "sku": "XEI-TURQUESA-M033",
+        "sku": "XEIM033-TURQUESA-M033",
         "name": "XEIJAYI TURQUESA AZULADO - M033",
         "brand": "XEIJAYI",
         "price": 15,
@@ -553,7 +553,7 @@ export const products = [
     },
     {
         "id": 49,
-        "sku": "XEI-DARKGREEN-M031",
+        "sku": "XEIM031-DARKGREEN",
         "name": "XEIJAYI VERDE OSCURO - M031",
         "brand": "XEIJAYI",
         "price": 15,
@@ -564,7 +564,7 @@ export const products = [
     },
     {
         "id": 50,
-        "sku": "XEI-OLIVEGREEN-M030",
+        "sku": "XEI-M030OLIVEGREEN",
         "name": "XEIJAYI VERDE OLIVA - M030",
         "brand": "XEIJAYI",
         "price": 15,
@@ -630,7 +630,7 @@ export const products = [
     },
     {
         "id": 56,
-        "sku": "XEI-ELEGANTBROWN-M044",
+        "sku": "XEIM044-ELEGANTBROWN",
         "name": "XEIJAYI MARRON ELEGANTE - M044",
         "brand": "XEIJAYI",
         "price": 15,
@@ -641,7 +641,7 @@ export const products = [
     },
     {
         "id": 57,
-        "sku": "XEI-GREYLIGTH-M045",
+        "sku": "XEIM045-GREYLIGTH",
         "name": "XEIJAYI GRIS CLARO - M045",
         "brand": "XEIJAYI",
         "price": 15,
@@ -652,7 +652,7 @@ export const products = [
     },
     {
         "id": 58,
-        "sku": "XEI-GREYQUARTZ-M047",
+        "sku": "XEIM047-GREYQUARTZ",
         "name": "XEIJAYI GRIS CUARZO - M047",
         "brand": "XEIJAYI",
         "price": 15,
@@ -663,7 +663,7 @@ export const products = [
     },
     {
         "id": 59,
-        "sku": "XEI-GREYMILKTEA-M048",
+        "sku": "XEIM048-GREYMILKTEA",
         "name": "XEIJAYI GRIS - M048",
         "brand": "XEIJAYI",
         "price": 15,
@@ -674,7 +674,7 @@ export const products = [
     },
     {
         "id": 60,
-        "sku": "XEI-BLACKPURE-M050",
+        "sku": "XEIM050-BLACKPURE",
         "name": "XEIJAYI NEGRO - M050",
         "brand": "XEIJAYI",
         "price": 15,
