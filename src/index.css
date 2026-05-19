@@ -335,7 +335,7 @@ button {
   border: 1px solid var(--border-color);
   background-color: var(--white);
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 16px; /* Prevents auto-zoom on focus in iOS and mobile browsers */
   color: var(--text-primary);
   outline: none;
   transition: all 0.2s;
