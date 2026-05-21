@@ -59,12 +59,12 @@ export const products = [
     {
         "id": 1,
         "sku": "XEI-SETBLUESB",
-        "name": "SET DE ESMALTES COLECCION AZUL X6",
+        "name": "SET DE ESMALTES COLECCION AZULES X6",
         "brand": "XEIJAYI",
         "price": 65,
         "categoryId": "2",
         "image": "1775351516_69d1b6dc37a44.jpg",
-        "description": "SET DE 6 ESMALTES CON VARIANTES AZULES - PRESENTACION B DE 15ML",
+        "description": "SET DE 6 ESMALTES CON VARIANTES DE  AZUL- PRESENTACION B DE 15ML - X009 - X010 - X020 - X043 - X045 - X046",
         "etiqueta": null
     },
     {
@@ -262,7 +262,7 @@ export const products = [
         "price": 65,
         "categoryId": "2",
         "image": "1775523792_69d457d058931.jpg",
-        "description": "SET DE ESMALTES EN GEL COLECCION MARRONES PRESENTACION B X6 DE 15ML",
+        "description": "SET DE ESMALTES EN GEL COLECCION MARRONES PRESENTACION B X6 DE 15ML - X005 - X006 - X007 - X011 -X 022 -X 032",
         "etiqueta": null
     },
     {
@@ -312,7 +312,7 @@ export const products = [
     {
         "id": 26,
         "sku": "XEI-SETGLITTERB",
-        "name": "SET DE ESMALTES COLECCION GLITTER X6",
+        "name": "SET DE ESMALTES COLECCION GLITTER X6 -X034 - X036 - X038 - X040 - X041 - X058",
         "brand": "XEIJAYI",
         "price": 65,
         "categoryId": "2",
@@ -1186,7 +1186,7 @@ export const products = [
         "price": 65,
         "categoryId": "2",
         "image": "1776735651_69e6d5a373834.jpg",
-        "description": "ESMALTE DE UÑAS DE VERANO ENCANTADOR MANICURA DE TEMPORADA SET DE 6 COLORES 15ML ESMALTE DE UÑAS SOAK-OFF LED ESMALTE DE UÑAS SALÓN MUJER HERRAMIENTAS DE MANICURA MODA DE LAS CUATRO ESTACIONES",
+        "description": "ESMALTE DE UÑAS DE VERANO ENCANTADOR MANICURA DE TEMPORADA SET DE 6 COLORES 15ML ESMALTE DE UÑAS SOAK-OFF LED ESMALTE DE UÑAS SALÓN MUJER HERRAMIENTAS DE MANICURA MODA DE LAS CUATRO ESTACIONES - X033 - X057 - X060 - X061 -X062 - X063",
         "etiqueta": null
     },
     {
@@ -1340,7 +1340,7 @@ export const products = [
         "price": 65,
         "categoryId": "2",
         "image": "1776818118_69e817c66d934.jpg",
-        "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN",
+        "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN - X037 - X039 - X047 - X012 - X016 - X024",
         "etiqueta": null
     },
     {
@@ -1544,12 +1544,12 @@ export const products = [
     {
         "id": 141,
         "sku": "XEI-SETREDSB",
-        "name": "SET DE ESMALTES COLECCION ROJO X6",
+        "name": "SET DE ESMALTES COLECCION ROJOS X6",
         "brand": "XEIJAYI",
         "price": 65,
         "categoryId": "2",
         "image": "1778021257_69fa7389a4dce.jpg",
-        "description": "ESMALTE DE UÑAS LED DE REMOJO DE 15 ML, SET DE 6 COLORES PARA MANICURA DE TEMPORADA DE VERANO, HERRAMIENTAS DE MANICURA PARA SALÓN DE UÑAS PARA MUJER, MODA PARA LAS CUATRO ESTACIONES",
+        "description": "ESMALTE DE UÑAS LED DE REMOJO DE 15 ML, SET DE 6 COLORES PARA MANICURA DE TEMPORADA DE VERANO, HERRAMIENTAS DE MANICURA PARA SALÓN DE UÑAS PARA MUJER, MODA PARA LAS CUATRO ESTACIONES X017 - X025 - X026 - X027 - X036 -X044",
         "etiqueta": null
     },
     {
@@ -1836,6 +1836,94 @@ export const products = [
         "categoryId": "2",
         "image": "1779134525_6a0b703d25fd7.jpg",
         "description": "ESMALTE EN GEL NUDE BASE XEIJAYI - M005",
+        "etiqueta": null
+    },
+    {
+        "id": 170,
+        "sku": "XEI-SETLPURPLEB",
+        "name": "SET DE ESMALTES COLECCION LILAS X6",
+        "brand": "XEIJAYI",
+        "price": 65,
+        "categoryId": "2",
+        "image": "1779329730_6a0e6ac2eb2bb.jpg",
+        "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN - X048 - X051 - X052 - X053 - X054 - X055",
+        "etiqueta": null
+    },
+    {
+        "id": 171,
+        "sku": "XEIX023-MAGENTAPURPLE",
+        "name": "ESMALTE EN GEL XEIJAYI MORADO MAGENTA 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779330295_6a0e6cf747061.jpg",
+        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X023",
+        "etiqueta": null
+    },
+    {
+        "id": 173,
+        "sku": "XEIX048",
+        "name": "ESMALTE EN GEL XEIJAYI LILA 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779330544_6a0e6df0870c0.jpg",
+        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X048",
+        "etiqueta": null
+    },
+    {
+        "id": 174,
+        "sku": "XEIX051-DARKPURPLE",
+        "name": "ESMALTE EN GEL XEIJAYI PURPURA OSCURO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779330722_6a0e6ea29037d.jpg",
+        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X051",
+        "etiqueta": null
+    },
+    {
+        "id": 175,
+        "sku": "XEIX052",
+        "name": "ESMALTE EN GEL XEIJAYI MORADO VITRAL 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779330841_6a0e6f1949b88.jpg",
+        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X052",
+        "etiqueta": null
+    },
+    {
+        "id": 176,
+        "sku": "XEIX053-DARKLILA",
+        "name": "ESMALTE EN GEL XEIJAYI LILA OSCURO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779330963_6a0e6f93dfc71.jpg",
+        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X053",
+        "etiqueta": null
+    },
+    {
+        "id": 177,
+        "sku": "XEIX054-LILAPINK",
+        "name": "ESMALTE EN GEL XEIJAYI LILA PINK 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779331103_6a0e701f6f817.jpg",
+        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X054",
+        "etiqueta": null
+    },
+    {
+        "id": 178,
+        "sku": "XEIX055-LILAGRAY",
+        "name": "ESMALTE EN GEL XEIJAYI LILA GRAY 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779331189_6a0e70756033d.jpg",
+        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X055",
         "etiqueta": null
     }
 ];
