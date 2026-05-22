@@ -2009,9 +2009,9 @@ export const products = [
         "name": "PULIDORA DE UÑAS PROFESIONAL 45.000 RPM - NEGRO",
         "brand": "GENERICO",
         "price": 145,
-        "categoryId": "9",
+        "categoryId": "3",
         "image": "1779475761_6a10a531c2dc8.jpg",
         "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL",
-        "etiqueta": null
+        "etiqueta": "DESTACADOS"
     }
 ];
