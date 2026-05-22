@@ -724,7 +724,7 @@ export const products = [
         "price": 15,
         "categoryId": "2",
         "image": "1776300223_69e030bf38d11.jpg",
-        "description": "XEIJAYI VAINILLA - M063",
+        "description": "XEIJAYI AMARILLO - M064",
         "etiqueta": null
     },
     {
@@ -1846,7 +1846,7 @@ export const products = [
         "price": 65,
         "categoryId": "2",
         "image": "1779329730_6a0e6ac2eb2bb.jpg",
-        "description": "DISEÑOS DE ARTE DE UÑAS HOLOGRÁFICOS DE OJO DE GATO DE MODA, 15 ML, GEL MAGNÉTICO REFLECTANTE DE OJO DE GATO PARA REMOJO, GEL LED PARA SALÓN - X048 - X051 - X052 - X053 - X054 - X055",
+        "description": "DISEÑOS DE ARTE DE UÑAS, 15 ML, COLECCION ESMALTES EN GEL MORADOS PARA SALÓN - X048 - X051 - X052 - X053 - X054 - X055",
         "etiqueta": null
     },
     {
@@ -1925,5 +1925,82 @@ export const products = [
         "image": "1779331189_6a0e70756033d.jpg",
         "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X055",
         "etiqueta": null
+    },
+    {
+        "id": 179,
+        "sku": "XEIX017-REDVITRAL",
+        "name": "ESMALTE EN GEL XEIJAYI ROJO VITRAL 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779331515_6a0e71bb608e9.jpg",
+        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X017",
+        "etiqueta": null
+    },
+    {
+        "id": 180,
+        "sku": "POLVO-AURORA-GEN",
+        "name": "POLVO EFECTO AURORA PARA UÑAS",
+        "brand": "GENERICO",
+        "price": 9,
+        "categoryId": "7",
+        "image": "1779375622_6a0f1e0678a9d.jpg",
+        "description": "POLVO DE ARCOÍRIS PARA UÑAS, POLVO AURORA ILUSORIA, POLVO LUZ LUNAR, POLVO ESPEJO MÁGICO: COMBINA CON DIVERSOS COLORES BASE PARA TONOS POLARIZADOS Y RESPLANDECIENTES",
+        "etiqueta": null
+    },
+    {
+        "id": 181,
+        "sku": "XEI-CEGOLDEN02",
+        "name": "ESMALTE EN GEL OJO DE GATO DORADO GOLDEN 02",
+        "brand": "XEIJAYI",
+        "price": 18,
+        "categoryId": "12",
+        "image": "1779376842_6a0f22ca9f14b.jpg",
+        "description": "ESMALTE EN GEL EFECTO OJO DE GATO DORADO GOLDEN 02 PRESENTACION 15 ML",
+        "etiqueta": null
+    },
+    {
+        "id": 182,
+        "sku": "XEIR019-VITRALNEGRO",
+        "name": "ESMALTE EN GEL XEIJAYI VITRAL NEGRO 15ML",
+        "brand": "XEIJAYI",
+        "price": 17,
+        "categoryId": "2",
+        "image": "1779377548_6a0f258c3626a.jpg",
+        "description": "XEIJAYI 1PC ESMALTE DE UÑAS EN GEL , 15ML, ARTE DE UÑAS PARA TODAS LAS ESTACIONES, ESMALTE LED REMOVIBLE CON INMERSIÓN, MANICURA DIY PARA HOGAR Y SALÓN",
+        "etiqueta": null
+    },
+    {
+        "id": 183,
+        "sku": "XEI-SETCESILK",
+        "name": "SET DE ESMALTES EFECTO OJO DE GATO COLECCION SEDA X6",
+        "brand": "XEIJAYI",
+        "price": 75,
+        "categoryId": "12",
+        "image": "1779400068_6a0f7d842ec87.jpg",
+        "description": "SET DE ESMALTES EFECTO OJO DE GATO COLECCION SEDA VIVIDO X6 ROSADO MORADO NUDE M117 - WATER MIRROR 05 - HAITANG CHUNG 07 - HAITANG CHUNG 08 - NINE PURPLE 02 - M135",
+        "etiqueta": null
+    },
+    {
+        "id": 184,
+        "sku": "SUTOZMIWE-GELPAINT-P21",
+        "name": "GEL DE PINTURA DE 9 COLORES SUTOZMIWE - P21",
+        "brand": "SUTOZMIWE",
+        "price": 30,
+        "categoryId": "8",
+        "image": "1779401065_6a0f81696f7ca.jpg",
+        "description": "9 COLORES SUTOZMIWE, COLORES DE OTOÑO E INVIERNO, RUBOR EN POLVO DEGRADADO, PINTURA MANUAL, SIN NECESIDAD DE LAVAR, ALTA SATURACIÓN, GEL DE MANCHAS DE COLOR GRUESO, DISEÑADO PARA MEJORAR UÑAS",
+        "etiqueta": "DESTACADOS"
+    },
+    {
+        "id": 185,
+        "sku": "SUTOZMIWE-GELPAINT-P02",
+        "name": "GEL DE PINTURA DE 9 COLORES SUTOZMIWE - P02",
+        "brand": "SUTOZMIWE",
+        "price": 30,
+        "categoryId": "8",
+        "image": "1779401197_6a0f81ed2d62f.jpg",
+        "description": "9 COLORES SUTOZMIWE, COLORES DE OTOÑO E INVIERNO, RUBOR EN POLVO DEGRADADO, PINTURA MANUAL, SIN NECESIDAD DE LAVAR, ALTA SATURACIÓN, GEL DE MANCHAS DE COLOR GRUESO, DISEÑADO PARA MEJORAR UÑAS",
+        "etiqueta": "DESTACADOS"
     }
 ];
