@@ -2002,5 +2002,16 @@ export const products = [
         "image": "1779401197_6a0f81ed2d62f.jpg",
         "description": "9 COLORES SUTOZMIWE, COLORES DE OTOÑO E INVIERNO, RUBOR EN POLVO DEGRADADO, PINTURA MANUAL, SIN NECESIDAD DE LAVAR, ALTA SATURACIÓN, GEL DE MANCHAS DE COLOR GRUESO, DISEÑADO PARA MEJORAR UÑAS",
         "etiqueta": "DESTACADOS"
+    },
+    {
+        "id": 187,
+        "sku": "HER-DRILL45KRPMPRO-NEG",
+        "name": "PULIDORA DE UÑAS PROFESIONAL 45.000 RPM - NEGRO",
+        "brand": "GENERICO",
+        "price": 145,
+        "categoryId": "9",
+        "image": "1779475761_6a10a531c2dc8.jpg",
+        "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL",
+        "etiqueta": null
     }
 ];
