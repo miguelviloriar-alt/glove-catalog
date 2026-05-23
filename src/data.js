@@ -2068,5 +2068,71 @@ export const products = [
         "image": "1779498299_6a10fd3baf2d7.jpg",
         "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X027",
         "etiqueta": null
+    },
+    {
+        "id": 194,
+        "sku": "XEIX012-GREENCAKE",
+        "name": "ESMALTE EN GEL XEIJAYI VERDE PASTEL 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779498794_6a10ff2a10f0b.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X012",
+        "etiqueta": null
+    },
+    {
+        "id": 195,
+        "sku": "XEIX016-GREENASH",
+        "name": "ESMALTE EN GEL XEIJAYI VERDE CENIZA 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779499224_6a1100d88bdce.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X016",
+        "etiqueta": null
+    },
+    {
+        "id": 196,
+        "sku": "XEIX024-GREENMINT",
+        "name": "ESMALTE EN GEL XEIJAYI VERDE MENTA 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779500890_6a11075aab268.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X024",
+        "etiqueta": null
+    },
+    {
+        "id": 197,
+        "sku": "XEIX037-GLASSGREEN",
+        "name": "ESMALTE EN GEL XEIJAYI VERDE BOTELLA 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779501067_6a11080b8f1c1.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X037",
+        "etiqueta": null
+    },
+    {
+        "id": 198,
+        "sku": "XEIX039-GREENAPPLE",
+        "name": "ESMALTE EN GEL XEIJAYI VERDE MANZANA CLARO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779501265_6a1108d139e37.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X039",
+        "etiqueta": null
+    },
+    {
+        "id": 199,
+        "sku": "XEIX047-JELLYAQUA",
+        "name": "ESMALTE EN GEL XEIJAYI VERDE JELLY AQUAMARINA 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779501419_6a11096b250c0.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X047",
+        "etiqueta": null
     }
 ];
