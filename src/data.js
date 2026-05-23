@@ -1857,7 +1857,7 @@ export const products = [
         "price": 14,
         "categoryId": "2",
         "image": "1779330295_6a0e6cf747061.jpg",
-        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X023",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X023",
         "etiqueta": null
     },
     {
@@ -1868,7 +1868,7 @@ export const products = [
         "price": 14,
         "categoryId": "2",
         "image": "1779330544_6a0e6df0870c0.jpg",
-        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X048",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X048",
         "etiqueta": null
     },
     {
@@ -1879,7 +1879,7 @@ export const products = [
         "price": 14,
         "categoryId": "2",
         "image": "1779330722_6a0e6ea29037d.jpg",
-        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X051",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X051",
         "etiqueta": null
     },
     {
@@ -1890,7 +1890,7 @@ export const products = [
         "price": 14,
         "categoryId": "2",
         "image": "1779330841_6a0e6f1949b88.jpg",
-        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X052",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X052",
         "etiqueta": null
     },
     {
@@ -1901,7 +1901,7 @@ export const products = [
         "price": 14,
         "categoryId": "2",
         "image": "1779330963_6a0e6f93dfc71.jpg",
-        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X053",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X053",
         "etiqueta": null
     },
     {
@@ -1912,7 +1912,7 @@ export const products = [
         "price": 14,
         "categoryId": "2",
         "image": "1779331103_6a0e701f6f817.jpg",
-        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X054",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X054",
         "etiqueta": null
     },
     {
@@ -1923,7 +1923,7 @@ export const products = [
         "price": 14,
         "categoryId": "2",
         "image": "1779331189_6a0e70756033d.jpg",
-        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X055",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X055",
         "etiqueta": null
     },
     {
@@ -1934,7 +1934,7 @@ export const products = [
         "price": 14,
         "categoryId": "2",
         "image": "1779331515_6a0e71bb608e9.jpg",
-        "description": "XEIJAYI Gel de uñas semipermanente de 15 ml, nuevo y popular, para arte de uñas, remojo LED, para salón de uñas - X017",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X017",
         "etiqueta": null
     },
     {
@@ -2013,5 +2013,60 @@ export const products = [
         "image": "1779475761_6a10a531c2dc8.jpg",
         "description": "MÁQUINA ELÉCTRICA PULIDORA PARA UÑAS DE 45000 RPM CON PANTALLA HD, LIMA ELÉCTRICA, PLUMA DE MANICURA DE METAL, TORNO PROFESIONAL PARA UÑAS, LIJADORA, DRILL",
         "etiqueta": "DESTACADOS"
+    },
+    {
+        "id": 188,
+        "sku": "XEI-GELSOLID-5G",
+        "name": "GEL SOLIDO XEIJAYI PARA EXTENSIONES DE UÑAS (5G)",
+        "brand": "XEIJAYI",
+        "price": 10,
+        "categoryId": "7",
+        "image": "1779479148_6a10b26c08b1b.jpg",
+        "description": "XEIJAYI GEL DE CONSTRUCCIÓN SÓLIDO TRANSPARENTE 5G, GEL PARA EXTENSIONES DE UÑAS DURAS, GEL NO PEGAJOSO PARA ESCULTURA DE UÑAS, GEL ACRÍLICO PARA ARTE DE UÑAS",
+        "etiqueta": null
+    },
+    {
+        "id": 190,
+        "sku": "XEIX025-DARKRED",
+        "name": "ESMALTE EN GEL XEIJAYI ROJO OSCURO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779497301_6a10f9555843d.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X025",
+        "etiqueta": null
+    },
+    {
+        "id": 191,
+        "sku": "XEIX026-REDPASSION",
+        "name": "ESMALTE EN GEL XEIJAYI ROJO PASION 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779497490_6a10fa121f59a.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X026",
+        "etiqueta": null
+    },
+    {
+        "id": 192,
+        "sku": "XEIX027-REDVIVID",
+        "name": "ESMALTE EN GEL XEIJAYI ROJO VIVIDO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779497593_6a10fa79a0987.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X027",
+        "etiqueta": null
+    },
+    {
+        "id": 193,
+        "sku": "XEIX044-REDMETAL",
+        "name": "ESMALTE EN GEL XEIJAYI ROJO METALICO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779498299_6a10fd3baf2d7.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X027",
+        "etiqueta": null
     }
 ];
