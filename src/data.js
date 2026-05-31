@@ -108,7 +108,7 @@ export const products = [
         "price": 65,
         "categoryId": "2",
         "image": "1775352849_69d1bc1173319.jpg",
-        "description": "SET DE ESMALTES COLECCION COLORES PASTEL PRESENTACION B DE 15 ML",
+        "description": "DISEÑOS DE ARTE DE UÑAS, 15 ML, COLECCION ESMALTES EN GEL MORADOS PARA SALÓN - X061 - X063 - X064 - X065 - X067 - X069",
         "etiqueta": null
     },
     {
@@ -2133,6 +2133,61 @@ export const products = [
         "categoryId": "2",
         "image": "1779501419_6a11096b250c0.jpg",
         "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X047",
+        "etiqueta": null
+    },
+    {
+        "id": 200,
+        "sku": "XEIX033-PINKCLASIC",
+        "name": "ESMALTE EN GEL XEIJAYI ROSADO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779554969_6a11da994096e.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X033",
+        "etiqueta": null
+    },
+    {
+        "id": 201,
+        "sku": "XEIX057-OLDPINK",
+        "name": "ESMALTE EN GEL XEIJAYI ROSA VIEJO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779555879_6a11de270df12.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X057",
+        "etiqueta": null
+    },
+    {
+        "id": 202,
+        "sku": "XEIX060-CORALPINK",
+        "name": "ESMALTE EN GEL XEIJAYI ROSADO CORAL 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779556031_6a11debfdb5e4.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X060",
+        "etiqueta": null
+    },
+    {
+        "id": 203,
+        "sku": "XEIX061-CAKEPINK",
+        "name": "ESMALTE EN GEL XEIJAYI ROSADO PASTEL 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1779557599_6a11e4df6bdbb.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X061",
+        "etiqueta": null
+    },
+    {
+        "id": 204,
+        "sku": "XEIX036-GLITTRED",
+        "name": "ESMALTE EN GEL XEIJAYI GLITTER ROJO 15ML",
+        "brand": "XEIJAYI",
+        "price": 14,
+        "categoryId": "2",
+        "image": "1780192325_6a1b94451f83c.jpg",
+        "description": "XEIJAYI GEL DE UÑAS SEMIPERMANENTE DE 15 ML, NUEVO Y POPULAR, PARA ARTE DE UÑAS, REMOJO LED, PARA SALÓN DE UÑAS - X036",
         "etiqueta": null
     }
 ];
